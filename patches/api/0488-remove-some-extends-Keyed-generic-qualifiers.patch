@@ -1,0 +1,43 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Jake Potrebic <jake.m.potrebic@gmail.com>
+Date: Tue, 27 Aug 2024 22:07:38 -0700
+Subject: [PATCH] remove some extends Keyed generic qualifiers
+
+
+diff --git a/src/main/java/io/papermc/paper/registry/RegistryAccess.java b/src/main/java/io/papermc/paper/registry/RegistryAccess.java
+index 86ab67ff5023bf6adea80b02648b6f67476e30e5..5cf423b1f54557ed497b2af2d6cd27b8cd1a7753 100644
+--- a/src/main/java/io/papermc/paper/registry/RegistryAccess.java
++++ b/src/main/java/io/papermc/paper/registry/RegistryAccess.java
+@@ -45,5 +45,5 @@ public interface RegistryAccess {
+      */
+     // Future note: We should have no trouble removing this generic qualifier when
+     // registry types no longer have to be "keyed" as it shouldn't break ABI or API.
+-    <T extends Keyed> @NotNull Registry<T> getRegistry(@NotNull RegistryKey<T> registryKey);
++    <T> @NotNull Registry<T> getRegistry(@NotNull RegistryKey<T> registryKey);
+ }
+diff --git a/src/main/java/io/papermc/paper/registry/set/RegistryKeySet.java b/src/main/java/io/papermc/paper/registry/set/RegistryKeySet.java
+index b891101b43148f63c96b7dd611914c85d7b29dbf..3683fd7222711a3c26022a291ce74fd733c1bbb1 100644
+--- a/src/main/java/io/papermc/paper/registry/set/RegistryKeySet.java
++++ b/src/main/java/io/papermc/paper/registry/set/RegistryKeySet.java
+@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Unmodifiable;
+ 
+ @ApiStatus.Experimental
+ @ApiStatus.NonExtendable
+-public non-sealed interface RegistryKeySet<T extends Keyed> extends Iterable<TypedKey<T>>, RegistrySet<T> { // TODO remove Keyed
++public non-sealed interface RegistryKeySet<T> extends Iterable<TypedKey<T>>, RegistrySet<T> {
+ 
+     @Override
+     default int size() {
+diff --git a/src/main/java/io/papermc/paper/registry/tag/Tag.java b/src/main/java/io/papermc/paper/registry/tag/Tag.java
+index ae374f68ef9baa16ed90c371f1622de0c0159873..3a1f864bd9421ab38a021d272ff41e491f7cf76f 100644
+--- a/src/main/java/io/papermc/paper/registry/tag/Tag.java
++++ b/src/main/java/io/papermc/paper/registry/tag/Tag.java
+@@ -14,7 +14,7 @@ import org.jetbrains.annotations.ApiStatus;
+  * @see org.bukkit.Registry#getTag(TagKey)
+  */
+ @ApiStatus.Experimental
+-public interface Tag<T extends Keyed> extends RegistryKeySet<T> { // TODO remove Keyed
++public interface Tag<T> extends RegistryKeySet<T> {
+ 
+     /**
+      * Get the identifier for this named set.

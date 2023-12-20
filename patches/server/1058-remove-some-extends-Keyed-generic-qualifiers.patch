@@ -1,0 +1,92 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Jake Potrebic <jake.m.potrebic@gmail.com>
+Date: Tue, 27 Aug 2024 22:07:29 -0700
+Subject: [PATCH] remove some extends Keyed generic qualifiers
+
+
+diff --git a/src/main/java/io/papermc/paper/registry/PaperRegistryAccess.java b/src/main/java/io/papermc/paper/registry/PaperRegistryAccess.java
+index f05ebf453406a924da3de6fb250f4793a1b3c612..26a5210b894e2b5d5cb77eb0b8597ccfe8ab29cc 100644
+--- a/src/main/java/io/papermc/paper/registry/PaperRegistryAccess.java
++++ b/src/main/java/io/papermc/paper/registry/PaperRegistryAccess.java
+@@ -67,7 +67,7 @@ public class PaperRegistryAccess implements RegistryAccess {
+ 
+     @SuppressWarnings("unchecked")
+     @Override
+-    public <T extends Keyed> Registry<T> getRegistry(final RegistryKey<T> key) {
++    public <T> Registry<T> getRegistry(final RegistryKey<T> key) {
+         if (PaperRegistries.getEntry(key) == null) {
+             throw new NoSuchElementException(key + " is not a valid registry key");
+         }
+@@ -88,7 +88,7 @@ public class PaperRegistryAccess implements RegistryAccess {
+         throw new IllegalArgumentException(key + " does not point to a writable registry");
+     }
+ 
+-    private static <T extends Keyed> Registry<T> possiblyUnwrap(final Registry<T> registry) {
++    private static <T> Registry<T> possiblyUnwrap(final Registry<T> registry) {
+         if (registry instanceof final DelayedRegistry<T, ?> delayedRegistry) { // if not coming from legacy, unwrap the delayed registry
+             return delayedRegistry.delegate();
+         }
+diff --git a/src/main/java/io/papermc/paper/registry/RegistryHolder.java b/src/main/java/io/papermc/paper/registry/RegistryHolder.java
+index a31bdd9f02fe75a87fceb2ebe8c36b3232a561cc..76de4dd9818cd116c8e3aaa7fa30c8847f0c5bc5 100644
+--- a/src/main/java/io/papermc/paper/registry/RegistryHolder.java
++++ b/src/main/java/io/papermc/paper/registry/RegistryHolder.java
+@@ -10,7 +10,7 @@ import org.checkerframework.checker.nullness.qual.NonNull;
+ import org.checkerframework.framework.qual.DefaultQualifier;
+ 
+ @DefaultQualifier(NonNull.class)
+-public interface RegistryHolder<B extends Keyed> {
++public interface RegistryHolder<B> {
+ 
+     Registry<B> get();
+ 
+diff --git a/src/main/java/io/papermc/paper/registry/legacy/DelayedRegistry.java b/src/main/java/io/papermc/paper/registry/legacy/DelayedRegistry.java
+index e5880f76cdb8ebf01fcefdf77ba9b95674b997a8..b2f2aa25751b002d909fed3e911ffa95380ae9ca 100644
+--- a/src/main/java/io/papermc/paper/registry/legacy/DelayedRegistry.java
++++ b/src/main/java/io/papermc/paper/registry/legacy/DelayedRegistry.java
+@@ -16,7 +16,7 @@ import org.jetbrains.annotations.NotNull;
+  * This is to support the now-deprecated fields in {@link Registry} for
+  * data-driven registries.
+  */
+-public final class DelayedRegistry<T extends Keyed, R extends Registry<T>> implements Registry<T> {
++public final class DelayedRegistry<T, R extends Registry<T>> implements Registry<T> {
+ 
+     private @MonotonicNonNull Supplier<? extends R> delegate;
+ 
+diff --git a/src/main/java/io/papermc/paper/registry/set/NamedRegistryKeySetImpl.java b/src/main/java/io/papermc/paper/registry/set/NamedRegistryKeySetImpl.java
+index e8c2c18a1ed5cd587266bd415170610781531a12..2d637887669a3f14810c4d4fbce495f44728da83 100644
+--- a/src/main/java/io/papermc/paper/registry/set/NamedRegistryKeySetImpl.java
++++ b/src/main/java/io/papermc/paper/registry/set/NamedRegistryKeySetImpl.java
+@@ -23,10 +23,10 @@ import org.jetbrains.annotations.NotNull;
+ import org.jetbrains.annotations.Unmodifiable;
+ 
+ @DefaultQualifier(NonNull.class)
+-public record NamedRegistryKeySetImpl<T extends Keyed, M>( // TODO remove Keyed
++public record NamedRegistryKeySetImpl<T, M>(
+     TagKey<T> tagKey,
+     HolderSet.Named<M> namedSet
+-) implements Tag<T>, org.bukkit.Tag<T> {
++) implements Tag<T>/*, org.bukkit.Tag<T>*/ {
+ 
+     @Override
+     public @Unmodifiable Collection<TypedKey<T>> values() {
+@@ -58,17 +58,17 @@ public record NamedRegistryKeySetImpl<T extends Keyed, M>( // TODO remove Keyed
+         return builder.build();
+     }
+ 
+-    @Override
++    // @Override
+     public boolean isTagged(final T item) {
+         return this.getValues().contains(item);
+     }
+ 
+-    @Override
++    // @Override
+     public Set<T> getValues() {
+         return Set.copyOf(this.resolve(RegistryAccess.registryAccess().getRegistry(this.registryKey())));
+     }
+ 
+-    @Override
++    // @Override
+     public @NotNull NamespacedKey getKey() {
+         final Key key = this.tagKey().key();
+         return new NamespacedKey(key.namespace(), key.value());
