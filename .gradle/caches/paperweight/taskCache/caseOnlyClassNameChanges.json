@@ -1,0 +1,30 @@
+[
+  {
+    "obfName": "net/minecraft/world/entity/monster/piglin/PiglinAI",
+    "deobfName": "net/minecraft/world/entity/monster/piglin/PiglinAi"
+  },
+  {
+    "obfName": "net/minecraft/world/entity/npc/NPC",
+    "deobfName": "net/minecraft/world/entity/npc/Npc"
+  },
+  {
+    "obfName": "net/minecraft/world/entity/monster/piglin/PiglinBruteAI",
+    "deobfName": "net/minecraft/world/entity/monster/piglin/PiglinBruteAi"
+  },
+  {
+    "obfName": "net/minecraft/world/level/pathfinder/Pathfinder",
+    "deobfName": "net/minecraft/world/level/pathfinder/PathFinder"
+  },
+  {
+    "obfName": "net/minecraft/server/EULA",
+    "deobfName": "net/minecraft/server/Eula"
+  },
+  {
+    "obfName": "net/minecraft/world/entity/monster/hoglin/HoglinAI",
+    "deobfName": "net/minecraft/world/entity/monster/hoglin/HoglinAi"
+  },
+  {
+    "obfName": "net/minecraft/world/level/levelgen/HeightMap",
+    "deobfName": "net/minecraft/world/level/levelgen/Heightmap"
+  }
+]

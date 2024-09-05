@@ -1,0 +1,15 @@
+Command: /usr/local/sdkman/candidates/java/21.0.4-ms/bin/java -classpath /workspaces/Paper/work/BuildData/bin/SpecialSource.jar net.md_5.specialsource.SpecialSource -i /workspaces/Paper/.gradle/caches/paperweight/taskCache/spigotRemapJar.jar.members --access-transformer /workspaces/Paper/work/BuildData/mappings/bukkit-1.21.1.at -m /workspaces/Paper/.gradle/caches/spigot-empty-package-mappings.csrg -o /workspaces/Paper/.gradle/caches/paperweight/taskCache/spigotRemapJar.jar
+Loading mappings
+0 packages, 0 classes, 0 fields, 0 methods
+Remapping final jar
+Remapping jar...  0%
+Remapping jar... 10%
+Remapping jar... 20%
+Remapping jar... 30%
+Remapping jar... 40%
+Remapping jar... 50%
+Remapping jar... 60%
+Remapping jar... 70%
+Remapping jar... 80%
+Remapping jar... 90%
+Remapping jar... 100%

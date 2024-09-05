@@ -1,0 +1,1319 @@
+Command: /usr/local/sdkman/candidates/java/21.0.4-ms/bin/java -classpath /workspaces/Paper/work/BuildData/bin/SpecialSource-2.jar net.md_5.ss.SpecialSource map --auto-member TOKENS -i /workspaces/Paper/.gradle/caches/paperweight/taskCache/spigotRemapJar.jar.classes -m /workspaces/Paper/.gradle/caches/paperweight/mappings/spigot-members.csrg -o /workspaces/Paper/.gradle/caches/paperweight/taskCache/spigotRemapJar.jar.members
+Unseen: net/minecraft/data/recipes/RecipeProvider:f (Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lop; -> cutBuilder
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Ljava/util/function/BiFunction;)V -> createCraftingTableLike
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:h (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createBeeNestDrop
+Unseen: net/minecraft/server/packs/DownloadQueue$a:e ()Lnet/minecraft/util/HttpUtilities$a; -> listener
+Unseen: net/minecraft/data/models/BlockModelGenerators:ar ()V -> createSweetBerryBush
+Unseen: net/minecraft/data/models/BlockModelGenerators:h ()V -> createPitcherPlant
+Unseen: net/minecraft/data/models/BlockModelGenerators:h (Lnet/minecraft/world/level/block/Block;)Lno$b; -> family
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:b (Ljava/lang/String;)Lor; -> group
+Unseen: net/minecraft/data/models/BlockModelGenerators:s ()V -> createRedstoneWire
+Unseen: net/minecraft/data/BlockFamily:b ()Ljava/util/Map; -> getVariants
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Ljava/lang/String;Lnet/minecraft/world/item/crafting/RecipeSerializer;Lnet/minecraft/world/item/crafting/RecipeCooking$a;I)V -> cookRecipes
+Unseen: net/minecraft/server/ChainedJsonException$a:a (Ljava/lang/String;)V -> addJsonKey
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker:a (Lnet/minecraft/server/level/WorldServer;)V -> chunkDecorated
+Unseen: net/minecraft/data/models/model/ModelTemplate:b (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lof;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/MinecraftKey; -> createWithOverride
+Unseen: net/minecraft/data/models/BlockModelGenerators:ag ()V -> createCalibratedSculkSensor
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$d:b (Lnv$g;)Lnv; -> generateList
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lno$e;)V -> createPlant
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/storage/loot/functions/LootItemFunctionUser;)Lnet/minecraft/world/level/storage/loot/functions/LootItemFunctionUser; -> applyExplosionDecay
+Unseen: net/minecraft/core/BlockMath:b (Lcom/mojang/math/Transformation;)Lcom/mojang/math/Transformation; -> blockCornerToCenter
+Unseen: net/minecraft/core/BlockBox:e ()I -> sizeZ
+Unseen: net/minecraft/util/ArrayListDeque$b:a (I)I -> reverseIndex
+Unseen: net/minecraft/data/models/BlockModelGenerators:n ()Lnv; -> createColumnWithFacing
+Unseen: net/minecraft/data/tags/TradeRebalanceEnchantmentTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:d (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createPotFlowerItemTable
+Unseen: net/minecraft/data/recipes/RecipeProvider:i (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> stonecutterResultFromBase
+Unseen: net/minecraft/data/models/model/TextureMapping:A (Lnet/minecraft/world/level/block/Block;)Lof; -> orientableCube
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:b (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addFood
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:b (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Loq; -> unlockedBy
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lof;Ljava/util/function/BiConsumer;)Lnr; -> createPillarBlockUVLocked
+Unseen: net/minecraft/data/models/model/TextureMapping:n (Lnet/minecraft/world/level/block/Block;)Lof; -> logColumn
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/tags/TagKey;I)V -> planksFromLog
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$e:b ()Lblx$a; -> compress
+Unseen: net/minecraft/data/models/blockstates/VariantProperty:a (Ljava/lang/Object;)Lnz$a; -> withValue
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createShearsOnlyDrop
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;)V -> createGenericCube
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/resources/MinecraftKey;)[Lnx; -> createRotatedVariants
+Unseen: net/minecraft/server/chase/ChaseServer:e ()Lalw$a; -> getPlayerPosition
+Unseen: net/minecraft/data/tags/TagsProvider$b:a (Lnet/minecraft/resources/MinecraftKey;)Lpz$b; -> addOptional
+Unseen: net/minecraft/data/models/model/TextureMapping:c (Lnet/minecraft/world/item/Item;)Lnet/minecraft/resources/MinecraftKey; -> getItemTexture
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:f ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> netherBridgeLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:p (Lnet/minecraft/world/level/block/Block;)V -> createFlowerBed
+Unseen: net/minecraft/data/tags/InstrumentTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;)V -> buildRecipes
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Loh$a;)V -> createTrivialBlock
+Unseen: net/minecraft/data/recipes/RecipeProvider:l (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> coloredTerracottaFromTerracottaAndDye
+Unseen: net/minecraft/data/recipes/SmithingTransformRecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lot; -> unlocks
+Unseen: net/minecraft/util/eventlog/EventLogDirectory:a (Ljava/nio/file/Path;Ljava/nio/file/Path;)V -> tryCompress
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/world/item/Item;Ljava/lang/String;Lod;)V -> generateFlatItem
+Unseen: net/minecraft/data/metadata/PackMetadataGenerator:a (Lnet/minecraft/data/PackOutput;Lnet/minecraft/network/chat/IChatBaseComponent;Lnet/minecraft/world/flag/FeatureFlagSet;)Lnm; -> forFeaturePack
+Unseen: net/minecraft/server/packs/DownloadQueue$e:e ()Lcom/mojang/datafixers/util/Either; -> errorOrFileInfo
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Loh$a;Loh$a;)V -> createRotatedPillarWithHorizontalVariant
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:c (Lnet/minecraft/world/level/block/Block;)Lno$b; -> customFence
+Unseen: net/minecraft/data/models/BlockModelGenerators:r ()V -> createBookshelf
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lof;Ljava/util/function/BiConsumer;)Lnr; -> createMirroredCubeGenerator
+Unseen: net/minecraft/data/models/BlockModelGenerators:v (Lnet/minecraft/world/level/block/Block;)V -> createDispenserBlock
+Unseen: net/minecraft/data/tags/VanillaItemTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$a:a ()Ljava/io/Reader; -> openReader
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:r (Lnet/minecraft/world/level/block/Block;)V -> dropPottedContents
+Unseen: net/minecraft/data/HashCache:a (Ljava/lang/String;)Z -> shouldRunInThisVersion
+Unseen: net/minecraft/data/models/BlockModelGenerators$a:a (Lod;[Lnet/minecraft/world/level/block/Block;)Lno$a; -> createWithCustomBlockItemModel
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:i (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createBeeHiveDrop
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createDoublePlantWithSeedDrops
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$b:b (Ljava/util/function/BiFunction;)Lnv; -> generateList
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$c:b (Lnv$h;)Lnv; -> generateList
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$d:c ()Ljava/util/Set; -> ids
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/advancements/critereon/CriterionConditionValue$IntegerRange;Ljava/util/Optional;)Lnet/minecraft/advancements/Criterion; -> fireCountAndBystander
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lno$e;)V -> createCrossBlockWithDefaultItem
+Unseen: net/minecraft/data/models/blockstates/Condition$c:a (Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/lang/String;)V -> putValue
+Unseen: net/minecraft/data/recipes/SmithingTrimRecipeBuilder:a (Lnet/minecraft/resources/MinecraftKey;)V -> ensureValid
+Unseen: net/minecraft/data/models/BlockModelGenerators:R ()V -> createCocoa
+Unseen: net/minecraft/data/BlockFamily:a ()Lnet/minecraft/world/level/block/Block; -> getBaseBlock
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:c ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> bastionHoglinStableLootTable
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:c (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> respectingTheRemnantsCriterions
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lof;Ljava/util/function/BiConsumer;)Lnr; -> createMirroredColumnGenerator
+Unseen: net/minecraft/data/models/BlockModelGenerators:s (Lnet/minecraft/world/level/block/Block;)V -> createAzalea
+Unseen: net/minecraft/network/chat/LocalChatSession:a (Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageChain$c; -> createMessageEncoder
+Unseen: net/minecraft/data/HashCache$e:a ()Ljava/lang/String; -> providerId
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:d (J)Z -> removeBit
+Unseen: net/minecraft/data/models/BlockModelGenerators:af ()V -> createSculkSensor
+Unseen: net/minecraft/data/models/BlockModelGenerators:G ()V -> createAmethystClusters
+Unseen: net/minecraft/server/ChainedJsonException$a:a ()Ljava/lang/String; -> getFilename
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:e (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addCatVariants
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:d (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/level/IMaterial;FI)Lor; -> smoking
+Unseen: net/minecraft/data/tags/TradeRebalanceStructureTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createNonTemplateModelBlock
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> twoByTwoPacker
+Unseen: net/minecraft/util/eventlog/JsonEventLog:a ()Lblz; -> openReader
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:p ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> desertPyramidLootTable
+Unseen: net/minecraft/util/CubicSampler:a (Lnet/minecraft/world/phys/Vec3D;Laxo$a;)Lnet/minecraft/world/phys/Vec3D; -> gaussianSampleVec3
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:e (J)Z -> removeFromNullEntry
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:i ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> woodlandMansionLootTable
+Unseen: net/minecraft/data/loot/packs/VanillaEntityLoot:d ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> elderGuardianLootTable
+Unseen: net/minecraft/data/models/blockstates/Variant:a (Ljava/util/List;)Lcom/google/gson/JsonElement; -> convertList
+Unseen: net/minecraft/data/models/BlockModelGenerators:F ()V -> createComposter
+Unseen: net/minecraft/data/models/BlockModelGenerators:m (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createBedItem
+Unseen: net/minecraft/data/recipes/RecipeProvider:k (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> stainedGlassPaneFromGlassPaneAndDye
+Unseen: net/minecraft/data/recipes/RecipeProvider:c (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> slab
+Unseen: net/minecraft/data/tags/VanillaBlockTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/BlockModelGenerators:e (Lnet/minecraft/world/level/block/Block;)V -> createRotatedMirroredVariantBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:g ()V -> createBigDripLeafBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:l (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createNormalTorch
+Unseen: net/minecraft/data/BlockFamily:d ()Z -> shouldGenerateRecipe
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/item/Item;Lnet/minecraft/resources/MinecraftKey;)V -> trimSmithing
+Unseen: net/minecraft/data/models/BlockModelGenerators:y (Lnet/minecraft/world/level/block/Block;)V -> createNyliumBlock
+Unseen: net/minecraft/server/commands/ChaseCommand:a (Lnet/minecraft/commands/CommandListenerWrapper;Ljava/lang/String;I)I -> lead
+Unseen: net/minecraft/data/recipes/RecipeProvider:g (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> bedFromPlanksAndWool
+Unseen: net/minecraft/data/models/BlockModelGenerators:f ()Lnv; -> createRotatedPillar
+Unseen: net/minecraft/data/models/model/TextureMapping:e (Lnet/minecraft/world/level/block/Block;)Lof; -> rail
+Unseen: net/minecraft/data/models/BlockModelGenerators:E (Lnet/minecraft/world/level/block/Block;)V -> createNonTemplateHorizontalBlock
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:l ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> ancientCityLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators$f:a (Lnet/minecraft/world/level/block/Block;)Lno$f; -> wood
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> woodFromLogs
+Unseen: net/minecraft/data/models/BlockModelGenerators:Q ()V -> createGrassBlocks
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:a (JI)J -> getFullKey
+Unseen: net/minecraft/data/recipes/RecipeProvider:f (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> carpet
+Unseen: net/minecraft/data/models/BlockModelGenerators:ah ()V -> createSculkShrieker
+Unseen: net/minecraft/core/BlockBox:b ()Lnet/minecraft/world/phys/AxisAlignedBB; -> aabb
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> woodenBoat
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:c ()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a; -> killedByFrog
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/storage/loot/entries/LootEntryAbstract$a;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSilkTouchDispatchTable
+Unseen: net/minecraft/data/info/PacketReport:b ()Lcom/google/gson/JsonElement; -> serializePackets
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lof;Lod;)V -> createTrivialBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:as ()V -> createTripwire
+Unseen: net/minecraft/data/models/BlockModelGenerators:h (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createGlassBlocks
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Ljava/lang/String;Lnet/minecraft/world/item/crafting/RecipeSerializer;Lnet/minecraft/world/item/crafting/RecipeCooking$a;ILnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;F)V -> simpleCookingRecipe
+Unseen: net/minecraft/data/models/BlockModelGenerators:d (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createAxisAlignedPillarBlock
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/storage/loot/entries/LootEntryAbstract$a;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSilkTouchOrShearsDispatchTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:g (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createFullAndCarpetBlocks
+Unseen: net/minecraft/data/models/BlockModelGenerators:k (Lnet/minecraft/world/level/block/Block;)V -> createTrapdoor
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSingleItemTableWithSilkTouch
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;Ljava/lang/String;I)V -> oneToOneConversionRecipe
+Unseen: net/minecraft/data/BlockFamily$a:o (Lnet/minecraft/world/level/block/Block;)Llx$a; -> trapdoor
+Unseen: net/minecraft/data/models/BlockModelGenerators:e ()Lnv; -> createFacingDispatch
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> copyTrapdoorModel
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$e:b (Lnv$f;)Lnv; -> generateList
+Unseen: net/minecraft/data/tags/EnchantmentTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;[Lnet/minecraft/resources/ResourceKey;)V -> tooltipOrder
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/world/entity/EntityTypes;Lnet/minecraft/world/item/Item;)Lnet/minecraft/advancements/Criterion; -> lookAtThroughItem
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:j (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createCaveVinesDrop
+Unseen: net/minecraft/data/models/BlockModelGenerators:P ()V -> createFrostedIce
+Unseen: net/minecraft/data/BlockFamily$a:j (Lnet/minecraft/world/level/block/Block;)Llx$a; -> fenceGate
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> grate
+Unseen: net/minecraft/data/models/BlockModelGenerators:f (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lno$a; -> blockEntityModels
+Unseen: net/minecraft/data/recipes/RecipeProvider:d (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> wall
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Z)Lnr; -> createFenceGate
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lnet/minecraft/data/CachedOutput;Lnet/minecraft/core/HolderLookup$a;Lnet/minecraft/advancements/AdvancementHolder;)Ljava/util/concurrent/CompletableFuture; -> buildAdvancement
+Unseen: net/minecraft/data/recipes/RecipeProvider:d (Lnet/minecraft/world/level/IMaterial;)Ljava/lang/String; -> getSimpleRecipeName
+Unseen: net/minecraft/server/packs/resources/ReloadableResourceManager:a (Lnet/minecraft/server/packs/resources/IReloadListener;)V -> registerReloadListener
+Unseen: net/minecraft/server/commands/ChaseCommand:b (Lnet/minecraft/commands/CommandListenerWrapper;Ljava/lang/String;I)I -> follow
+Unseen: net/minecraft/data/tags/TagsProvider:c ()Ljava/util/concurrent/CompletableFuture; -> contentsGetter
+Unseen: net/minecraft/data/loot/packs/VanillaBlockLoot:u (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createDecoratedPotTable
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:m (Lnet/minecraft/world/level/block/Block;)V -> trapdoor
+Unseen: net/minecraft/data/models/model/TextureMapping:x (Lnet/minecraft/world/level/block/Block;)Lof; -> lantern
+Unseen: net/minecraft/util/LowerCaseEnumTypeAdapterFactory:a (Ljava/lang/Object;)Ljava/lang/String; -> toLowercase
+Unseen: net/minecraft/data/models/blockstates/Selector:a (Lnw;)Lnw; -> extend
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/state/properties/BlockStateBoolean;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnv; -> createBooleanModelDispatch
+Unseen: net/minecraft/data/structures/SnbtToNbt:a (Lnet/minecraft/data/CachedOutput;Lph$c;Ljava/nio/file/Path;)V -> storeStructureIfChanged
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;[F)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createLeavesDrops
+Unseen: net/minecraft/data/models/BlockModelGenerators:q ()V -> createGrindstone
+Unseen: net/minecraft/core/BlockBox:a (Lnet/minecraft/core/EnumDirection;I)Ljb; -> extend
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lom;Lnet/minecraft/world/level/IMaterial;Ljava/lang/String;Ljava/lang/String;)V -> nineBlockStorageRecipesWithCustomPacking
+Unseen: net/minecraft/core/BlockBox:d ()I -> sizeY
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Ljava/util/function/Function;)V -> createBeeNest
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:p (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createCandleCakeDrops
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner:a (Ljava/nio/file/Path;I)V -> vacuumCacheDir
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:a (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/level/IMaterial;)Los; -> stonecutting
+Unseen: net/minecraft/data/tags/TagsProvider:c (Lnet/minecraft/tags/TagKey;)Lawr; -> getOrCreateRawBuilder
+Unseen: net/minecraft/util/ArrayListDeque:a (II)V -> verifyIndexInRange
+Unseen: net/minecraft/server/packs/DownloadQueue$a:a ()Lcom/google/common/hash/HashFunction; -> hashFunction
+Unseen: net/minecraft/util/ArrayListDeque:c (I)Ljava/lang/Object; -> getInner
+Unseen: net/minecraft/data/models/BlockModelGenerators:p ()V -> createBell
+Unseen: net/minecraft/data/models/blockstates/Condition$c:a (Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/util/stream/Stream;)Ljava/lang/String; -> joinValues
+Unseen: net/minecraft/data/models/model/TextureMapping:G (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/resources/MinecraftKey; -> getBlockTexture
+Unseen: net/minecraft/data/tags/BiomeTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> addNetherVinesDropTable
+Unseen: net/minecraft/data/recipes/RecipeProvider:m (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> concretePowder
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b ()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a; -> doesNotHaveSilkTouch
+Unseen: net/minecraft/data/tags/WorldPresetTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/model/TextureMapping:w (Lnet/minecraft/world/level/block/Block;)Lof; -> fire1
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$a:b (Ljava/util/function/Function;)Lnv; -> generateList
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lom;Lnet/minecraft/world/level/IMaterial;)V -> nineBlockStorageRecipes
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:b (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Los; -> unlockedBy
+Unseen: net/minecraft/data/models/model/TextureMapping:d (Log;Lnet/minecraft/resources/MinecraftKey;)Lof; -> singleSlot
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lno$e;Lof;)V -> createCrossBlockWithDefaultItem
+Unseen: net/minecraft/gametest/framework/JUnitLikeTestReporter:a (Lnet/minecraft/gametest/framework/GameTestHarnessInfo;Ljava/lang/String;)Lorg/w3c/dom/Element; -> createTestCase
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Loh$a;[Lnet/minecraft/world/level/block/Block;)V -> createColoredBlockWithRandomRotations
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/tags/TagKey;)V -> copySmithingTemplate
+Unseen: net/minecraft/data/models/model/ModelLocationUtils:a (Lnet/minecraft/world/item/Item;Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> getModelLocation
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:s (Lnet/minecraft/world/level/block/Block;)V -> dropWhenSilkTouch
+Unseen: net/minecraft/data/models/model/TextureMapping:d (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lof; -> fletchingTable
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:k (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createGrassDrops
+Unseen: net/minecraft/data/models/BlockModelGenerators:E ()V -> createChorusPlant
+Unseen: net/minecraft/data/tags/TagsProvider:b ()Ljava/util/concurrent/CompletableFuture; -> createContentsProvider
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$b:b ()Lblx$a; -> compress
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lod;Ljava/util/function/Function;)Lnet/minecraft/resources/MinecraftKey; -> createSuffixedVariant
+Unseen: net/minecraft/data/recipes/RecipeProvider:c (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> chestBoat
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/properties/IBlockState;[I)V -> createCropBlock
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/core/HolderLookup$a;Ljava/util/function/Consumer;Lnet/minecraft/advancements/AdvancementHolder;Lnet/minecraft/world/level/biome/MultiNoiseBiomeSourceParameterList$a;)V -> createAdventuringTime
+Unseen: net/minecraft/data/BlockFamily$a:f (Lnet/minecraft/world/level/block/Block;)Llx$a; -> door
+Unseen: net/minecraft/data/models/BlockModelGenerators:g (Lnet/minecraft/world/level/block/Block;)V -> createBrushableBlock
+Unseen: net/minecraft/data/BlockFamily$a:a (Lnet/minecraft/world/level/block/Block;)Llx$a; -> button
+Unseen: net/minecraft/data/recipes/RecipeProvider:e (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> hangingSign
+Unseen: net/minecraft/data/BlockFamily$a:p (Lnet/minecraft/world/level/block/Block;)Llx$a; -> wall
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lom;Lnet/minecraft/world/level/IMaterial;Ljava/lang/String;Ljava/lang/String;)V -> nineBlockStorageRecipesRecipesWithCustomUnpacking
+Unseen: net/minecraft/data/BlockFamily$a:k (Lnet/minecraft/world/level/block/Block;)Llx$a; -> slab
+Unseen: net/minecraft/util/PngInfo:a (Ljava/io/InputStream;)Layt; -> fromStream
+Unseen: net/minecraft/server/level/progress/StoringChunkProgressListener:d ()I -> getFullDiameter
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/resources/MinecraftKey;Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> getItemModelForTrimMaterial
+Unseen: net/minecraft/data/models/model/TextureMapping:b (Log;Lnet/minecraft/resources/MinecraftKey;)Lof; -> putForced
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:f (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createRedstoneOreDrops
+Unseen: net/minecraft/data/models/BlockModelGenerators:C (Lnet/minecraft/world/level/block/Block;)Ljava/util/List; -> createTopFireModels
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$c:b (Ljava/lang/String;)Ljava/lang/String; -> toFileName
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:a (Ljava/lang/String;)Lol; -> group
+Unseen: net/minecraft/data/tags/FlatLevelGeneratorPresetTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/model/TexturedModel:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/MinecraftKey; -> createWithSuffix
+Unseen: net/minecraft/data/info/BiomeParametersDumpReport:a (Ljava/nio/file/Path;Lnet/minecraft/data/CachedOutput;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/Encoder;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture; -> dumpValue
+Unseen: net/minecraft/data/BlockFamily$b:a ()Ljava/lang/String; -> getRecipeGroup
+Unseen: net/minecraft/data/HashCache:a ()V -> purgeStaleAndWrite
+Unseen: net/minecraft/data/models/model/TextureMapping:r (Lnet/minecraft/world/level/block/Block;)Lof; -> cubeBottomTopWithWall
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a ()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a; -> hasSilkTouch
+Unseen: net/minecraft/data/models/model/TextureMapping:j (Lnet/minecraft/resources/MinecraftKey;)Lof; -> cauldron
+Unseen: net/minecraft/data/BlockFamily:f ()Ljava/util/Optional; -> getRecipeUnlockedBy
+Unseen: net/minecraft/data/loot/LootTableProvider$a:b ()Lnet/minecraft/world/level/storage/loot/parameters/LootContextParameterSet; -> paramSet
+Unseen: net/minecraft/data/models/BlockModelGenerators:D ()V -> createEndPortalFrame
+Unseen: net/minecraft/data/models/BlockModelGenerators:d ()Lnv; -> createTorchHorizontalDispatch
+Unseen: net/minecraft/data/models/BlockModelGenerators:n (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createNetherRoots
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createStairs
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$c:a ()Ljava/time/LocalDate; -> date
+Unseen: net/minecraft/data/loot/packs/TradeRebalanceChestLoot:b ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> desertPyramidLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:ai ()V -> createScaffolding
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnt;Lns$c;Lny$a;Lnet/minecraft/world/level/block/state/properties/BlockStateBoolean;Lod;Z)V -> addBookSlotModel
+Unseen: net/minecraft/data/models/model/TextureMapping:B (Lnet/minecraft/world/level/block/Block;)Lof; -> orientableCubeOnlyTop
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:a ()Lnet/minecraft/world/level/storage/loot/predicates/AnyOfCondition$a; -> shouldSmeltLoot
+Unseen: net/minecraft/server/chase/ChaseClient:b (Ljava/lang/String;)V -> executeCommand
+Unseen: net/minecraft/data/models/BlockModelGenerators:at ()V -> createTripwireHook
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (I)Ljava/util/List; -> createBambooModels
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$b:a ()Ljava/io/Reader; -> openReader
+Unseen: net/minecraft/core/BlockBox:c ()I -> sizeX
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lno$e;)V -> createGrowingPlant
+Unseen: net/minecraft/data/models/BlockModelGenerators:Z ()V -> createNetherrack
+Unseen: net/minecraft/data/recipes/RecipeProvider:o (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> copySmithingTemplate
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSlabItemTable
+Unseen: net/minecraft/server/chase/ChaseServer$a:a ()Ljava/lang/String; -> dimensionName
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:a (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSheepTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:O ()V -> createMangrovePropagule
+Unseen: net/minecraft/util/PngInfo:a (Ljava/nio/ByteBuffer;)V -> validateHeader
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> noDrop
+Unseen: net/minecraft/data/models/blockstates/Variant:a ()Lnx; -> variant
+Unseen: net/minecraft/server/chase/ChaseClient:a (Ljava/util/Scanner;)V -> handleTeleport
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$e:a ()Ljava/io/Reader; -> openReader
+Unseen: net/minecraft/data/tags/TagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> stairBuilder
+Unseen: net/minecraft/data/models/model/ModelLocationUtils:b (Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> decorateItemModelLocation
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:a (Ljava/util/List;Ljava/util/List;)Ljava/util/List; -> mergeVariants
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lop; -> chiseledBuilder
+Unseen: net/minecraft/data/DataGenerator:a (ZLjava/lang/String;)Llz$a; -> getBuiltinDatapack
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:t (Lnet/minecraft/world/level/block/Block;)V -> dropSelf
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/item/Item;)V -> createSimpleFlatItemModel
+Unseen: net/minecraft/data/models/BlockModelGenerators:N ()V -> createMuddyMangroveRoots
+Unseen: net/minecraft/data/BlockFamily$a:b ()Llx$a; -> dontGenerateModel
+Unseen: net/minecraft/data/models/model/TextureMapping:i (Lnet/minecraft/resources/MinecraftKey;)Lof; -> torch
+Unseen: net/minecraft/data/tags/CatVariantTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lnet/minecraft/world/level/IMaterial;)Ljava/lang/String; -> getHasName
+Unseen: net/minecraft/data/models/BlockModelGenerators:av ()V -> createSnifferEgg
+Unseen: net/minecraft/server/level/BlockDestructionProgress:d ()I -> getUpdatedRenderTick
+Unseen: net/minecraft/core/BlockBox:a ()Z -> isBlock
+Unseen: net/minecraft/data/BlockFamily$a:a ()Llx; -> getFamily
+Unseen: net/minecraft/data/models/BlockModelGenerators:r (Lnet/minecraft/world/level/block/Block;)V -> createAnvil
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$a:b ()Lblx$a; -> compress
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;I)V -> stonecutterResultFromBase
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:e ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> endCityTreasureLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:Y ()V -> createNetherPortalBlock
+Unseen: net/minecraft/data/recipes/SmithingTransformRecipeBuilder:a (Lnet/minecraft/resources/MinecraftKey;)V -> ensureValid
+Unseen: net/minecraft/data/models/BlockModelGenerators:m (Lnet/minecraft/world/level/block/Block;)V -> createNonTemplateModelBlock
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:b (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lor; -> unlockedBy
+Unseen: net/minecraft/network/chat/LastSeenMessagesTracker:a ()I -> getAndClearOffset
+Unseen: net/minecraft/gametest/framework/GameTestServer:br ()Z -> haveTestsStarted
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:a (Lnet/minecraft/world/level/block/Block;Lod;)Lno$b; -> fullBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:z ()V -> createPumpkins
+Unseen: net/minecraft/data/models/BlockModelGenerators:ak ()V -> createRedstoneLamp
+Unseen: net/minecraft/data/recipes/SmithingTrimRecipeBuilder:a (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lnet/minecraft/world/item/crafting/RecipeItemStack;Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;)Lou; -> smithingTrim
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:b ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> shipwreckMapLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:e (Lnet/minecraft/world/level/block/Block;)Lno$b; -> customFenceGate
+Unseen: net/minecraft/data/models/BlockModelGenerators:f (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)V -> createDoubleBlock
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/advancements/AdvancementHolder;Ljava/util/function/Consumer;Ljava/util/List;)Lnet/minecraft/advancements/AdvancementHolder; -> createMonsterHunterAdvancement
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch:a (Lnw;Ljava/util/List;)V -> putValue
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lno$e;Lnet/minecraft/world/level/block/state/properties/IBlockState;[I)V -> createCrossBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createCustomFence
+Unseen: net/minecraft/data/models/BlockModelGenerators:o ()V -> createBarrel
+Unseen: net/minecraft/data/models/model/TextureMapping:m (Lnet/minecraft/world/level/block/Block;)Lof; -> pottedAzalea
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createCopperBulb
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lol; -> unlockedBy
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:a (Lnet/minecraft/world/level/block/Block;)Lnu; -> multiVariant
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:a (Lom;Lnet/minecraft/world/level/IMaterial;)Lop; -> shaped
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> smithingWithStyle
+Unseen: net/minecraft/server/packs/DownloadQueue$a:c ()Ljava/util/Map; -> headers
+Unseen: net/minecraft/data/models/BlockModelGenerators:f (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;)V -> createAirLikeBlock
+Unseen: net/minecraft/data/models/model/TextureMapping:f (Lnet/minecraft/resources/MinecraftKey;)Lof; -> wool
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/item/Item;)Lof; -> particleFromItem
+Unseen: net/minecraft/data/models/model/TextureMapping:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lof; -> pane
+Unseen: net/minecraft/data/models/BlockModelGenerators:e (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createPressurePlate
+Unseen: net/minecraft/data/recipes/RecipeProvider:d (Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> wallBuilder
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSingleItemTableWithSilkTouch
+Unseen: net/minecraft/world/level/levelgen/structure/pieces/PieceGeneratorSupplier$a:a (Lnet/minecraft/world/level/levelgen/HeightMap$Type;)Z -> validBiomeOnTop
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/tags/TagKey;I)V -> planksFromLogs
+Unseen: net/minecraft/data/models/BlockModelGenerators:y ()V -> createSmithingTable
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:a (Llx;)Lno$b; -> generateFor
+Unseen: net/minecraft/data/recipes/SmithingTransformRecipeBuilder:a (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lnet/minecraft/world/item/crafting/RecipeItemStack;Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/item/Item;)Lot; -> smithing
+Unseen: net/minecraft/data/BlockFamily$a:c (Lnet/minecraft/world/level/block/Block;)Llx$a; -> mosaic
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;)V -> createTrivialCube
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:j (Lnet/minecraft/world/level/block/Block;)Lno$b; -> stairs
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:a (Lnet/minecraft/resources/MinecraftKey;)V -> ensureValid
+Unseen: net/minecraft/data/recipes/RecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lol; -> unlockedBy
+Unseen: net/minecraft/server/chase/ChaseClient:b (Ljava/util/Scanner;)Ljava/util/Optional; -> parseTarget
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/flag/FeatureFlagSet;)V -> generateForEnabledBlockFamilies
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;[F)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createOakLeavesDrops
+Unseen: net/minecraft/data/registries/RegistriesDatapackGenerator:a (Ljava/nio/file/Path;Lnet/minecraft/data/CachedOutput;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/Encoder;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture; -> dumpValue
+Unseen: net/minecraft/data/models/model/TextureMapping:z (Lnet/minecraft/world/level/block/Block;)Lof; -> commandBlock
+Unseen: net/minecraft/data/recipes/RecipeCategory:a ()Ljava/lang/String; -> getFolderName
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V -> colorBlockWithDye
+Unseen: net/minecraft/data/tags/ItemTagsProvider:b ()Ljava/util/concurrent/CompletableFuture; -> createContentsProvider
+Unseen: net/minecraft/data/HashCache:b (Ljava/lang/String;)Ljava/nio/file/Path; -> getProviderCachePath
+Unseen: net/minecraft/data/models/BlockModelGenerators$f:d (Lnet/minecraft/world/level/block/Block;)Lno$f; -> logUVLocked
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:m (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createDoublePlantShearsDrop
+Unseen: net/minecraft/server/chase/ChaseClient:a (Ljava/lang/String;)V -> handleMessage
+Unseen: net/minecraft/data/models/model/TextureMapping:h (Lnet/minecraft/world/level/block/Block;)Lof; -> stem
+Unseen: net/minecraft/data/BlockFamily$a:h (Lnet/minecraft/world/level/block/Block;)Llx$a; -> fence
+Unseen: net/minecraft/data/tags/DamageTypeTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:h ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> bastionOtherLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:x (Lnet/minecraft/world/level/block/Block;)V -> createAmethystCluster
+Unseen: net/minecraft/data/BlockFamily$a:m (Lnet/minecraft/world/level/block/Block;)Llx$a; -> pressurePlate
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:a (Lom;Lnet/minecraft/world/level/IMaterial;I)Lop; -> shaped
+Unseen: net/minecraft/world/entity/player/ProfileKeyPair:a ()Z -> dueRefresh
+Unseen: net/minecraft/data/models/BlockModelGenerators:aj ()V -> createCaveVines
+Unseen: net/minecraft/data/models/BlockModelGenerators:C ()V -> createCrafterBlock
+Unseen: net/minecraft/util/eventlog/JsonEventLog:b ()V -> releaseReference
+Unseen: net/minecraft/data/models/BlockModelGenerators$e:a ()Lod; -> getCross
+Unseen: net/minecraft/data/models/BlockModelGenerators:au ()V -> createTurtleEgg
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:k ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> strongholdCorridorLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createWall
+Unseen: net/minecraft/data/models/BlockModelGenerators:b ()Lnv; -> createHorizontalFacingDispatch
+Unseen: net/minecraft/data/models/BlockModelGenerators:D (Lnet/minecraft/world/level/block/Block;)V -> createLantern
+Unseen: net/minecraft/server/ChainedJsonException:a (Ljava/lang/String;)V -> prependJsonKey
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:b (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> craftingANewLook
+Unseen: net/minecraft/data/models/model/ModelLocationUtils:a (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/resources/MinecraftKey; -> getModelLocation
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;)V -> createAirLikeBlock
+Unseen: net/minecraft/data/models/model/TextureMapping:s (Lnet/minecraft/world/level/block/Block;)Lof; -> columnWithWall
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:a (J)J -> getOuterKey
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/resources/MinecraftKey;Ljava/util/Map;Lnet/minecraft/core/Holder;)Lcom/google/gson/JsonObject; -> generateBaseArmorTrimTemplate
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSilkTouchOnlyTable
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Lnet/minecraft/world/flag/FeatureFlagSet;)V -> waxRecipes
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:a (Lon;)V -> buildRecipes
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/item/crafting/RecipeSerializer;Lnet/minecraft/world/item/crafting/RecipeCooking$a;Ljava/util/List;Lom;Lnet/minecraft/world/level/IMaterial;FILjava/lang/String;Ljava/lang/String;)V -> oreCooking
+Unseen: net/minecraft/server/packs/DownloadQueue$b:b ()Ljava/util/Set; -> failed
+Unseen: net/minecraft/data/models/BlockModelGenerators:j (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createWeightedPressurePlate
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:n ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> shipwreckTreasureLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Ljava/util/List;Ljava/util/function/UnaryOperator;)Ljava/util/List; -> wrapModels
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> threeByThreePacker
+Unseen: net/minecraft/data/models/model/TextureMapping:c (Log;Lnet/minecraft/resources/MinecraftKey;)Lof; -> copyAndUpdate
+Unseen: net/minecraft/data/loot/packs/TradeRebalanceChestLoot:a ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> pillagerOutpostLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:B ()V -> createChorusFlower
+Unseen: net/minecraft/data/models/BlockModelGenerators:o (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createCandleAndCandleCake
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lol; -> unlockedBy
+Unseen: net/minecraft/data/recipes/RecipeProvider:i (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> stainedGlassFromGlassAndDye
+Unseen: net/minecraft/tags/TagBuilder:d (Lnet/minecraft/resources/MinecraftKey;)Lawr; -> addOptionalTag
+Unseen: net/minecraft/data/models/BlockModelGenerators:i (Lnet/minecraft/world/level/block/Block;)V -> createDoor
+Unseen: net/minecraft/util/eventlog/EventLogDirectory:a ()Lblx$d; -> listFiles
+Unseen: net/minecraft/util/SmoothDouble:a (DD)D -> getNewDeltaValue
+Unseen: net/minecraft/data/models/BlockModelGenerators:aA ()V -> createInfestedDeepslate
+Unseen: net/minecraft/server/commands/ChaseCommand:b (Lnet/minecraft/commands/CommandListenerWrapper;)Z -> alreadyRunning
+Unseen: net/minecraft/data/models/BlockModelGenerators:d (Lnet/minecraft/world/level/block/Block;Loh$a;)V -> createFurnace
+Unseen: net/minecraft/data/models/blockstates/Condition$c:b (Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/lang/Comparable;[Ljava/lang/Comparable;)Lns$c; -> negatedTerm
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Llx;Lnet/minecraft/world/flag/FeatureFlagSet;)V -> generateRecipes
+Unseen: net/minecraft/data/recipes/RecipeProvider:d (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> buttonBuilder
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> otherWhenSilkTouch
+Unseen: net/minecraft/data/models/BlockModelGenerators:M ()V -> createSoulFire
+Unseen: net/minecraft/data/models/BlockModelGenerators:e (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createStems
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$b:b ()Ljava/nio/file/attribute/FileTime; -> modifiedTime
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lno$b; -> donateModelTo
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;)V -> delegateItemModel
+Unseen: net/minecraft/server/ChainedJsonException:a (Ljava/lang/Exception;)Laku; -> forException
+Unseen: net/minecraft/data/models/model/TexturedModel:a (Lnet/minecraft/resources/MinecraftKey;)Loh; -> createAllSame
+Unseen: net/minecraft/data/models/ModelProvider:a (Lnet/minecraft/data/CachedOutput;Ljava/util/Map;Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture; -> saveCollection
+Unseen: net/minecraft/server/packs/resources/ReloadableResourceManager:a (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Lnet/minecraft/server/packs/resources/IReloadable; -> createReload
+Unseen: net/minecraft/data/models/model/TextureMapping:k (Lnet/minecraft/resources/MinecraftKey;)Lof; -> layer0
+Unseen: net/minecraft/data/models/BlockModelGenerators:c ()Lnv; -> createHorizontalFacingDispatchAlt
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/storage/loot/entries/LootEntryAbstract$a;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createShearsDispatchTable
+Unseen: net/minecraft/data/models/model/TextureMapping:f (Lnet/minecraft/world/level/block/Block;)Lof; -> wool
+Unseen: net/minecraft/data/models/BlockModelGenerators:X ()V -> createFrogspawnBlock
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createShulkerBoxDrop
+Unseen: net/minecraft/network/chat/LastSeenMessagesTracker:b ()Lxh$a; -> generateAndApplyUpdate
+Unseen: net/minecraft/data/recipes/RecipeProvider:d (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> pressurePlate
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:a (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;Ljava/util/stream/Stream;Ljava/util/stream/Stream;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addBreedable
+Unseen: net/minecraft/data/models/BlockModelGenerators:aw ()V -> createSculkCatalyst
+Unseen: net/minecraft/data/models/BlockModelGenerators:aa ()V -> createObserver
+Unseen: net/minecraft/data/recipes/RecipeProvider:e (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> fenceBuilder
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Lno$e;)V -> createDoublePlant
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Ljava/lang/String;)Lof; -> snifferEgg
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:n (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createCandleDrops
+Unseen: net/minecraft/data/models/BlockModelGenerators:f (Lnet/minecraft/world/level/block/Block;)V -> createRotatedVariantBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:al ()V -> createRedstoneTorch
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner:a (Ljava/util/List;)Ljava/util/List; -> prioritizeFilesInDirs
+Unseen: net/minecraft/data/BlockFamily$a:i (Lnet/minecraft/world/level/block/Block;)Llx$a; -> customFenceGate
+Unseen: net/minecraft/data/models/BlockModelGenerators:A ()V -> createCauldrons
+Unseen: net/minecraft/data/BlockFamily$a:d (Lnet/minecraft/world/level/block/Block;)Llx$a; -> cracked
+Unseen: net/minecraft/data/models/BlockModelGenerators:l (Lnet/minecraft/world/level/block/Block;)Lno$f; -> woodProvider
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createButton
+Unseen: net/minecraft/data/models/model/TextureMapping:p (Lnet/minecraft/world/level/block/Block;)Lof; -> customParticle
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:a (Lnet/minecraft/world/item/crafting/RecipeSerializer;Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/item/crafting/CookingBookCategory; -> determineRecipeCategory
+Unseen: net/minecraft/util/eventlog/EventLogDirectory:a (Ljava/nio/file/Path;)Lblx$b; -> parseFile
+Unseen: net/minecraft/data/DataGenerator$a:a (Lnet/minecraft/data/DebugReportProvider$a;)Lnet/minecraft/data/DebugReportProvider; -> addProvider
+Unseen: net/minecraft/data/BlockFamily$a:b (Ljava/lang/String;)Llx$a; -> recipeUnlockedBy
+Unseen: net/minecraft/data/models/BlockModelGenerators:W ()V -> createLilyPad
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:a (Lnet/minecraft/resources/MinecraftKey;)V -> ensureValid
+Unseen: net/minecraft/data/models/model/TextureMapping:F (Lnet/minecraft/world/level/block/Block;)Lof; -> layer0
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:a (Lom;Lnet/minecraft/world/level/IMaterial;)Loq; -> shapeless
+Unseen: net/minecraft/data/models/BlockModelGenerators$a:b ([Lnet/minecraft/world/level/block/Block;)Lno$a; -> createWithoutBlockItem
+Unseen: net/minecraft/data/models/BlockModelGenerators:z (Lnet/minecraft/world/level/block/Block;)V -> createRotatableColumn
+Unseen: net/minecraft/data/HashCache$e:b ()Lmb$b; -> cache
+Unseen: net/minecraft/data/models/ItemModelGenerators:b (Lnet/minecraft/world/item/Item;)V -> generateCompassItem
+Unseen: net/minecraft/data/models/BlockModelGenerators:x ()V -> createCartographyTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/lang/Comparable;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnv; -> createEmptyOrFullDispatch
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lod;)V -> generateFlatItem
+Unseen: net/minecraft/data/BlockFamily$a:n (Lnet/minecraft/world/level/block/Block;)Llx$a; -> polished
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lof;Ljava/util/function/BiConsumer;)Lnr; -> createNorthWestMirroredCubeGenerator
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;)V -> skipAutoItemBlock
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:a (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/level/IMaterial;I)Los; -> stonecutting
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:c (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/item/crafting/CookingBookCategory; -> determineBlastingRecipeCategory
+Unseen: net/minecraft/data/models/model/TextureMapping:b (Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lof; -> door
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createHangingSign
+Unseen: net/minecraft/util/ArrayListDeque:b (I)V -> verifyIndexInRange
+Unseen: net/minecraft/network/chat/LocalChatSession:c ()Lcmz; -> keyPair
+Unseen: net/minecraft/data/models/BlockModelGenerators:m ()V -> createBamboo
+Unseen: net/minecraft/data/models/BlockModelGenerators:w ()V -> createCakeBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;)Lnu; -> createSimpleBlock
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Ljava/util/List;Lom;Lnet/minecraft/world/level/IMaterial;FILjava/lang/String;)V -> oreSmelting
+Unseen: net/minecraft/data/loot/packs/VanillaBlockLoot:e ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createPitcherCropLoot
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)V -> generateLayeredItem
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:f ()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a; -> doesNotHaveShearsOrSilkTouch
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Ljava/util/List;Lom;Lnet/minecraft/world/level/IMaterial;FILjava/lang/String;)V -> oreBlasting
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;Ljava/lang/String;)V -> threeByThreePacker
+Unseen: net/minecraft/data/models/BlockModelGenerators:an ()V -> createSeaPickle
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:c (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addFishBuckets
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Loh$a;[Lnet/minecraft/world/level/block/Block;)V -> createColoredBlockWithStateRotations
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)V -> copySmithingTemplate
+Unseen: net/minecraft/data/models/BlockModelGenerators:l ()V -> createSmallDripleaf
+Unseen: net/minecraft/core/BlockMath:a (Lcom/mojang/math/Transformation;Lnet/minecraft/core/EnumDirection;)Lcom/mojang/math/Transformation; -> getUVLockTransform
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch:c ()V -> verifyComplete
+Unseen: net/minecraft/data/models/BlockModelGenerators:ac ()V -> createPistonHeads
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:d (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createCopperOreDrops
+Unseen: net/minecraft/data/recipes/RecipeProvider:c (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> trapdoorBuilder
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:b (J)I -> getInnerKey
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lom;Lnet/minecraft/world/level/IMaterial;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V -> nineBlockStorageRecipes
+Unseen: net/minecraft/data/models/model/ModelLocationUtils:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> getModelLocation
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:a ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> shipwreckSupplyLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:e (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;)V -> createAxisAlignedPillarBlockCustomModel
+Unseen: net/minecraft/data/models/BlockModelGenerators:t (Lnet/minecraft/world/level/block/Block;)V -> createPottedAzalea
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:o (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createPetalsDrops
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:e ()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a; -> hasShearsOrSilkTouch
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (ILjava/lang/String;Lof;)Lnet/minecraft/resources/MinecraftKey; -> createTurtleEggModel
+Unseen: net/minecraft/world/entity/player/ProfileKeyPair:b ()Ljava/security/PrivateKey; -> privateKey
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createMushroomBlockDrop
+Unseen: net/minecraft/data/models/BlockModelGenerators:d (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createCoralFans
+Unseen: net/minecraft/tags/TagBuilder:a (Lnet/minecraft/resources/MinecraftKey;)Lawr; -> addElement
+Unseen: net/minecraft/data/BlockFamily$a:a (Ljava/lang/String;)Llx$a; -> recipeGroupPrefix
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSingleItemTable
+Unseen: net/minecraft/data/models/model/ModelTemplate:a (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/resources/MinecraftKey; -> getDefaultModelLocation
+Unseen: net/minecraft/data/models/BlockModelGenerators:w (Lnet/minecraft/world/level/block/Block;)V -> createCopperBulb
+Unseen: net/minecraft/data/models/model/ModelLocationUtils:a (Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> decorateBlockModelLocation
+Unseen: net/minecraft/data/metadata/PackMetadataGenerator:a (Lnet/minecraft/data/PackOutput;Lnet/minecraft/network/chat/IChatBaseComponent;)Lnm; -> forFeaturePack
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:b (IJ)Z -> removeFromEntry
+Unseen: net/minecraft/data/HashCache$a:a (Ljava/nio/file/Path;Lcom/google/common/hash/HashCode;)Z -> shouldWrite
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:a (Ljava/lang/String;)Lol; -> group
+Unseen: net/minecraft/data/models/model/ModelTemplate:a (Lnet/minecraft/resources/MinecraftKey;Ljava/util/Map;)Lcom/google/gson/JsonObject; -> createBaseTemplate
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:a (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addLeashedFrogVariants
+Unseen: net/minecraft/data/models/BlockModelGenerators:aB ()V -> createRespawnAnchor
+Unseen: net/minecraft/data/models/model/TextureMapping:b (Lnet/minecraft/world/item/Item;)Lof; -> layer0
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:a (Ljava/lang/String;)Lol; -> group
+Unseen: net/minecraft/data/recipes/SmithingTrimRecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lou; -> unlocks
+Unseen: net/minecraft/data/recipes/RecipeProvider:b (Lon;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> copperBulb
+Unseen: net/minecraft/util/ListAndDeque:b ()Layk; -> reversed
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:a (Ljava/lang/String;)Lol; -> group
+Unseen: net/minecraft/data/loot/packs/TradeRebalanceChestLoot:d ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> jungleTempleLootTable
+Unseen: net/minecraft/util/ArrayListDeque:a ([Ljava/lang/Object;I)V -> copyCount
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:d ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> bastionBridgeLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnv$d;Lnet/minecraft/world/level/block/state/properties/BlockPropertyDoubleBlockHalf;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnv$d; -> configureDoorHalf
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> getBlockTexture
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:a (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;Lnet/minecraft/core/HolderLookup$a;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addTamedWolfVariants
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/IMaterial;)V -> dropOther
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:b (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/world/item/crafting/CookingBookCategory; -> determineSmeltingRecipeCategory
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/world/item/Item;)V -> generateItemWithOverlay
+Unseen: net/minecraft/data/HashCache$e:c ()I -> writes
+Unseen: net/minecraft/util/PngInfo:a ([B)Layt; -> fromBytes
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/core/BlockPropertyJigsawOrientation;Lnx;)Lnx; -> applyRotation
+Unseen: net/minecraft/data/recipes/RecipeProvider:g (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> chiseled
+Unseen: net/minecraft/server/level/BlockDestructionProgress:b (I)V -> updateTick
+Unseen: net/minecraft/data/tags/VanillaEnchantmentTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/recipes/RecipeProvider:e (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> polished
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createCropDrops
+Unseen: net/minecraft/data/models/BlockModelGenerators:q (Lnet/minecraft/world/level/block/Block;)V -> createCommandBlock
+Unseen: net/minecraft/world/entity/player/ProfileKeyPair:c ()Lnet/minecraft/world/entity/player/ProfilePublicKey; -> publicKey
+Unseen: net/minecraft/data/recipes/RecipeProvider:h (Lon;Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> mosaicBuilder
+Unseen: net/minecraft/data/advancements/AdvancementSubProvider:a (Ljava/lang/String;)Lnet/minecraft/advancements/AdvancementHolder; -> createPlaceholder
+Unseen: net/minecraft/data/models/BlockModelGenerators:ax ()V -> createChiseledBookshelf
+Unseen: net/minecraft/data/models/model/TextureMapping:e (Lnet/minecraft/resources/MinecraftKey;)Lof; -> rail
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnt;Lns$c;Lny$a;)V -> addSlotStateAndRotationVariants
+Unseen: net/minecraft/data/tags/EntityTypeTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/BlockModelGenerators:K ()V -> createFarmland
+Unseen: net/minecraft/data/models/BlockModelGenerators:ab ()V -> createPistons
+Unseen: net/minecraft/server/level/progress/StoringChunkProgressListener:e ()I -> getDiameter
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:e (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createLapisOreDrops
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lof; -> layered
+Unseen: net/minecraft/data/recipes/RecipeProvider:f (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> fenceGateBuilder
+Unseen: net/minecraft/data/models/model/TextureMapping:j (Lnet/minecraft/world/level/block/Block;)Lof; -> fan
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:a (Lnet/minecraft/world/entity/EntityTypes;)Z -> canHaveLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createFence
+Unseen: net/minecraft/world/entity/player/ProfileKeyPair:d ()Ljava/time/Instant; -> refreshedAfter
+Unseen: net/minecraft/server/packs/DownloadQueue:b (Lasl$a;Ljava/util/Map;)Lasl$b; -> runDownload
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;Ljava/lang/String;)V -> oneToOneConversionRecipe
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/world/item/Item;Lod;)V -> generateFlatItem
+Unseen: net/minecraft/data/models/BlockModelGenerators:am ()V -> createRepeater
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$e:e ()Ljava/nio/channels/FileChannel; -> openChannel
+Unseen: net/minecraft/data/models/BlockModelGenerators:B (Lnet/minecraft/world/level/block/Block;)Ljava/util/List; -> createSideFireModels
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/Criterion; -> placedBlockReadByComparator
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a;Lnet/minecraft/world/level/storage/loot/entries/LootEntryAbstract$a;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSelfDropDispatchTable
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:a (Ljava/util/function/BiConsumer;)V -> spawnerLootTables
+Unseen: net/minecraft/data/models/model/ModelLocationUtils:a (Lnet/minecraft/world/item/Item;)Lnet/minecraft/resources/MinecraftKey; -> getModelLocation
+Unseen: net/minecraft/data/models/BlockModelGenerators:V ()V -> createLever
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:b (Lnet/minecraft/world/level/block/Block;)Lno$b; -> wall
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:g (Lnet/minecraft/world/level/block/Block;)Lno$b; -> pressurePlate
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:l (Lnet/minecraft/world/level/block/Block;)Lno$b; -> door
+Unseen: net/minecraft/data/HashCache:a (Ljava/nio/file/Path;Ljava/nio/file/Path;)Lmb$b; -> readCache
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:d (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addFish
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Llx;Llx$b;)Lnet/minecraft/world/level/block/Block; -> getBaseBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:J ()V -> createLightningRod
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner:a (Ljava/nio/file/Path;)Ljava/util/List; -> listFilesWithModificationTimes
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lof;)V -> createPistonVariant
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createDoor
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:c (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/level/IMaterial;FI)Lor; -> smelting
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:a (Lnet/minecraft/world/level/block/Block;)Lno$b; -> button
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)V -> generateLayeredItem
+Unseen: net/minecraft/data/recipes/RecipeProvider:g (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> signBuilder
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Ljava/lang/Integer;Ljava/lang/Integer;)Lnet/minecraft/resources/MinecraftKey; -> createTurtleEggModel
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:a (Lom;Lnet/minecraft/world/level/IMaterial;I)Loq; -> shapeless
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker:a (Lnet/minecraft/server/level/WorldServer;Lnet/minecraft/world/level/levelgen/feature/WorldGenFeatureConfigured;Ljava/util/Optional;)V -> featurePlaced
+Unseen: net/minecraft/data/models/BlockModelGenerators:n (Lnet/minecraft/world/level/block/Block;)V -> createPassiveRail
+Unseen: net/minecraft/data/models/BlockModelGenerators:a ([Lnet/minecraft/world/level/block/Block;)V -> createCampfires
+Unseen: net/minecraft/gametest/framework/GameTestServer:b (Lnet/minecraft/server/level/WorldServer;)V -> startTests
+Unseen: net/minecraft/data/models/model/TexturedModel:a (Ljava/util/function/Consumer;)Loh; -> updateTextures
+Unseen: net/minecraft/data/models/ItemModelGenerators:c (Lnet/minecraft/world/item/Item;)V -> generateClockItem
+Unseen: net/minecraft/data/models/blockstates/MultiPartGenerator:a (Lnet/minecraft/world/level/block/Block;)Lnt; -> multiPart
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Loh$a;)V -> createHorizontallyRotatedBlock
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/Criterion; -> insideOf
+Unseen: net/minecraft/data/models/BlockModelGenerators:U ()V -> createIronBars
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$d:a (Ljava/time/LocalDate;I)Lblx$d; -> prune
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:f (Lnet/minecraft/world/level/block/Block;)Lno$b; -> fenceGate
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnu; -> createRotatedVariant
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> copyDoorModel
+Unseen: net/minecraft/data/models/BlockModelGenerators:az ()V -> createInfestedStone
+Unseen: net/minecraft/data/models/BlockModelGenerators:d (Lnet/minecraft/world/level/block/Block;)V -> createSimpleFlatItemModel
+Unseen: net/minecraft/data/models/BlockModelGenerators:F (Lnet/minecraft/world/level/block/Block;)V -> createMultiface
+Unseen: net/minecraft/data/models/model/TextureMapping:o (Lnet/minecraft/world/level/block/Block;)Lof; -> fence
+Unseen: net/minecraft/data/models/model/TexturedModel:b ()Lof; -> getMapping
+Unseen: net/minecraft/data/models/BlockModelGenerators:ao ()V -> createSnowBlocks
+Unseen: net/minecraft/data/recipes/RecipeProvider:a ([Lnet/minecraft/advancements/critereon/CriterionConditionItem;)Lnet/minecraft/advancements/Criterion; -> inventoryTrigger
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createOreDrop
+Unseen: net/minecraft/data/recipes/RecipeProvider:h (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> banner
+Unseen: net/minecraft/data/models/model/TextureMapping:g (Lnet/minecraft/world/level/block/Block;)Lof; -> flowerbed
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$d:a ()Lblx$d; -> compressAll
+Unseen: net/minecraft/data/structures/SnbtToNbt:a (Ljava/lang/String;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound; -> applyFilters
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:a (Lnet/minecraft/resources/MinecraftKey;)V -> ensureValid
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/item/Item;Lnet/minecraft/resources/MinecraftKey;)V -> delegateItemModel
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:a (Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a; -> killedByFrogVariant
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$a;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createMultifaceBlockDrops
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Log;Log;)Lof; -> copySlot
+Unseen: net/minecraft/server/chase/ChaseServer:c ()V -> runSender
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:j ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> strongholdLibraryLootTable
+Unseen: net/minecraft/data/models/model/TextureMapping:a ()Ljava/util/stream/Stream; -> getForced
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:a (Lnet/minecraft/resources/MinecraftKey;)Lnet/minecraft/world/item/crafting/ShapedRecipePattern; -> ensureValid
+Unseen: net/minecraft/data/models/BlockModelGenerators:v ()V -> createBrewingStand
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/lang/Comparable;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSinglePropConditionTable
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker$b:b ()Lorg/apache/commons/lang3/mutable/MutableInt; -> chunksWithFeatures
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/resources/MinecraftKey;)Lof; -> defaultTexture
+Unseen: net/minecraft/data/recipes/RecipeBuilder:a (Lnet/minecraft/world/level/IMaterial;)Lnet/minecraft/resources/MinecraftKey; -> getDefaultRecipeId
+Unseen: net/minecraft/data/BlockFamilies:a ()Ljava/util/stream/Stream; -> getAllFamilies
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:a (Lnet/minecraft/world/level/block/Block;[Lnx;)Lnu; -> multiVariant
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionUser;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionUser; -> applyExplosionCondition
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:g ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> bastionTreasureLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:ad ()V -> createTrialSpawner
+Unseen: net/minecraft/data/models/BlockModelGenerators:k ()V -> createTallSeagrass
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:o ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> pillagerOutpostLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:i (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> copyCopperBulbModel
+Unseen: net/minecraft/data/BlockFamily:c ()Z -> shouldGenerateModel
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:a (Lnet/minecraft/world/level/block/Block;Lnx;)Lnu; -> multiVariant
+Unseen: net/minecraft/data/models/BlockModelGenerators:aC ()V -> createJigsaw
+Unseen: net/minecraft/data/models/BlockModelGenerators:j ()V -> createSunflower
+Unseen: net/minecraft/data/models/model/TextureMapping:t (Lnet/minecraft/world/level/block/Block;)Lof; -> door
+Unseen: net/minecraft/server/ChainedJsonException:b (Ljava/lang/String;)V -> setFilenameAndFlush
+Unseen: net/minecraft/data/models/model/TextureMapping:b (Log;Log;)Lof; -> copyForced
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lno$e;Lof;)V -> createCrossBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators:u ()V -> createSmoothStoneSlab
+Unseen: net/minecraft/data/models/BlockModelGenerators:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createOrientableTrapdoor
+Unseen: net/minecraft/data/recipes/RecipeProvider:e (Lnet/minecraft/world/level/IMaterial;)Ljava/lang/String; -> getSmeltingRecipeName
+Unseen: net/minecraft/data/models/BlockModelGenerators:k (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> copyModel
+Unseen: net/minecraft/data/models/model/TextureMapping:g (Lnet/minecraft/resources/MinecraftKey;)Lof; -> crop
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:c (Ljava/lang/String;)Lop; -> group
+Unseen: net/minecraft/util/ArrayListDeque$b:b ()Layk; -> reversed
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createStemDrops
+Unseen: net/minecraft/data/models/blockstates/VariantProperty$a:a (Lcom/google/gson/JsonObject;)V -> addToVariant
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:b ()Ljava/util/stream/Stream; -> smithingTrims
+Unseen: net/minecraft/data/models/blockstates/Condition$c:b (Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/lang/Comparable;)Lns$c; -> negatedTerm
+Unseen: net/minecraft/data/recipes/RecipeProvider:j (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> stainedGlassPaneFromStainedGlass
+Unseen: net/minecraft/data/models/BlockModelGenerators:e (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createSlab
+Unseen: net/minecraft/data/loot/packs/VanillaChestLoot:m ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> jungleTempleLootTable
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> slabBuilder
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:k (Lnet/minecraft/world/level/block/Block;)Lno$b; -> fullBlockVariant
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:q (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createDoorTable
+Unseen: net/minecraft/data/structures/SnbtToNbt:a (Lph$a;)Lph; -> addFilter
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lon;Lnet/minecraft/world/item/Item;Lom;Lnet/minecraft/world/item/Item;)V -> netheriteSmithing
+Unseen: net/minecraft/data/models/BlockModelGenerators:A (Lnet/minecraft/world/level/block/Block;)Ljava/util/List; -> createFloorFireModels
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnx;)V -> createGrassLikeBlock
+Unseen: net/minecraft/data/BlockFamily:e ()Ljava/util/Optional; -> getRecipeGroupPrefix
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V -> createCoral
+Unseen: net/minecraft/data/tags/BannerPatternTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:a (IJ)Z -> replaceBit
+Unseen: net/minecraft/data/structures/SnbtDatafixer:a ([Ljava/lang/String;)V -> main
+Unseen: net/minecraft/data/models/BlockModelGenerators:d (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createRotatedPillarWithHorizontalVariant
+Unseen: net/minecraft/data/HashCache:a (Ljava/lang/String;Lmb$d;)Ljava/util/concurrent/CompletableFuture; -> generateUpdate
+Unseen: net/minecraft/data/recipes/RecipeProvider:p (Lon;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)V -> smeltingResultFromBase
+Unseen: net/minecraft/data/models/model/ModelTemplates:b (Ljava/lang/String;[Log;)Lod; -> createItem
+Unseen: net/minecraft/data/models/model/TextureMapping:y (Lnet/minecraft/world/level/block/Block;)Lof; -> torch
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;)V -> createSimpleFlatItemModel
+Unseen: net/minecraft/data/models/BlockModelGenerators$f:c (Lnet/minecraft/world/level/block/Block;)Lno$f; -> logWithHorizontal
+Unseen: net/minecraft/data/models/BlockModelGenerators:ay ()V -> createMagmaBlock
+Unseen: net/minecraft/data/models/model/TextureMapping:b (Lnet/minecraft/world/level/block/Block;)Lof; -> defaultTexture
+Unseen: net/minecraft/data/structures/SnbtDatafixer:a (Ljava/lang/String;)V -> updateInDirectory
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:a (Lnet/minecraft/advancements/AdvancementHolder;Ljava/util/function/Consumer;Ljava/util/stream/Stream;Ljava/util/stream/Stream;)Lnet/minecraft/advancements/AdvancementHolder; -> createBreedAllAnimalsAdvancement
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a (Lnet/minecraft/advancements/Advancement$SerializedAdvancement;Ljava/util/List;)Lnet/minecraft/advancements/Advancement$SerializedAdvancement; -> addMobsToKill
+Unseen: net/minecraft/server/packs/DownloadQueue$b:a ()Ljava/util/Map; -> downloaded
+Unseen: net/minecraft/data/BlockFamily$a:l (Lnet/minecraft/world/level/block/Block;)Llx$a; -> stairs
+Unseen: net/minecraft/data/models/BlockModelGenerators$e:b ()Lod; -> getCrossPot
+Unseen: net/minecraft/data/models/BlockModelGenerators:aE ()V -> createLightBlock
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lof; -> vault
+Unseen: net/minecraft/data/BlockFamilies:a (Lnet/minecraft/world/level/block/Block;)Llx$a; -> familyBuilder
+Unseen: net/minecraft/data/BlockFamily$a:c ()Llx$a; -> dontGenerateRecipe
+Unseen: net/minecraft/util/eventlog/EventLogDirectory:a (Ljava/time/LocalDate;)Lblx$e; -> createNewFile
+Unseen: net/minecraft/data/loot/packs/TradeRebalanceChestLoot:c ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> ancientCityLootTable
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/level/block/Block;Z)Lof; -> candleCake
+Unseen: net/minecraft/data/recipes/ShapelessRecipeBuilder:b (Ljava/lang/String;)Loq; -> group
+Unseen: net/minecraft/server/packs/DownloadQueue$a:b ()I -> maxSize
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:l (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createMangroveLeavesDrops
+Unseen: net/minecraft/server/chase/ChaseServer:d ()V -> runAcceptor
+Unseen: net/minecraft/data/models/model/TextureMapping:d (Lnet/minecraft/world/level/block/Block;)Lof; -> plant
+Unseen: net/minecraft/data/BlockFamily$a:g (Lnet/minecraft/world/level/block/Block;)Llx$a; -> customFence
+Unseen: net/minecraft/data/models/model/TextureMapping:c (Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lof; -> layered
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Loh$a;)V -> createAxisAlignedPillarBlock
+Unseen: net/minecraft/data/info/RegistryDumpReport:a (Lnet/minecraft/core/IRegistry;)Lcom/google/gson/JsonElement; -> dumpRegistry
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:b (Ljava/lang/String;)Los; -> group
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/IMaterial;)Ljava/lang/String; -> getConversionRecipeName
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker:b ()V -> logCounts
+Unseen: net/minecraft/data/loot/packs/VanillaEquipmentLoot:a (Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/armortrim/ArmorTrim;Lnet/minecraft/core/HolderLookup$b;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> trialChamberEquipment
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/item/Item;Ljava/lang/String;)Lnet/minecraft/resources/MinecraftKey; -> getItemTexture
+Unseen: net/minecraft/server/packs/DownloadQueue:a (Lasl$a;Ljava/util/Map;)Ljava/util/concurrent/CompletableFuture; -> downloadBatch
+Unseen: net/minecraft/server/packs/DownloadQueue:a (Ljava/nio/file/Path;)Lcom/mojang/datafixers/util/Either; -> getFileInfo
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:g (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createBannerDrop
+Unseen: net/minecraft/data/BlockFamily$a:b (Lnet/minecraft/world/level/block/Block;)Llx$a; -> chiseled
+Unseen: net/minecraft/data/registries/RegistriesDatapackGenerator:a (Lnet/minecraft/data/CachedOutput;Lnet/minecraft/core/HolderLookup$a;Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/resources/RegistryDataLoader$c;)Ljava/util/Optional; -> dumpRegistryCap
+Unseen: net/minecraft/data/models/model/TextureMapping:l (Lnet/minecraft/world/level/block/Block;)Lof; -> cubeTop
+Unseen: net/minecraft/network/chat/LocalChatSession:a ()Lnet/minecraft/network/chat/RemoteChatSession; -> asRemote
+Unseen: net/minecraft/data/models/BlockModelGenerators:j (Lnet/minecraft/world/level/block/Block;)V -> createOrientableTrapdoor
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createSingleItemTable
+Unseen: net/minecraft/network/chat/LastSeenMessagesTracker:a (Lnet/minecraft/network/chat/MessageSignature;)V -> ignorePending
+Unseen: net/minecraft/data/recipes/RecipeProvider:c (Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> pressurePlateBuilder
+Unseen: net/minecraft/data/models/blockstates/Condition$c:c (Lnet/minecraft/world/level/block/state/properties/IBlockState;Ljava/lang/Comparable;[Ljava/lang/Comparable;)Ljava/lang/String; -> getTerm
+Unseen: net/minecraft/data/tags/FluidTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/tags/GameEventTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/tags/PoiTypeTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$a:b ()I -> removalPriority
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:b (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lop; -> unlockedBy
+Unseen: net/minecraft/data/tags/StructureTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/BlockModelGenerators:T ()V -> createHopper
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:i (Lnet/minecraft/world/level/block/Block;)Lno$b; -> slab
+Unseen: net/minecraft/server/ChainedJsonException$a:b ()Ljava/lang/String; -> getJsonKeys
+Unseen: net/minecraft/core/BlockMath:a (Lcom/mojang/math/Transformation;)Lcom/mojang/math/Transformation; -> blockCenterToCorner
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:b (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/level/IMaterial;FI)Lor; -> blasting
+Unseen: net/minecraft/data/models/BlockModelGenerators:o (Lnet/minecraft/world/level/block/Block;)V -> createActiveRail
+Unseen: net/minecraft/data/models/BlockModelGenerators:I ()V -> createDaylightDetector
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lol; -> unlockedBy
+Unseen: net/minecraft/data/loot/LootTableProvider:a (Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/MinecraftKey; -> sequenceIdForLootTable
+Unseen: net/minecraft/tags/TagBuilder:b (Lnet/minecraft/resources/MinecraftKey;)Lawr; -> addOptionalElement
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Z)Lof; -> sculkShrieker
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:a (Lod;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/resources/MinecraftKey; -> getOrCreateModel
+Unseen: net/minecraft/data/models/BlockModelGenerators:u (Lnet/minecraft/world/level/block/Block;)V -> createMushroomBlock
+Unseen: net/minecraft/data/recipes/RecipeProvider:f (Lnet/minecraft/world/level/IMaterial;)Ljava/lang/String; -> getBlastingRecipeName
+Unseen: net/minecraft/data/models/blockstates/Selector:a (Lnet/minecraft/world/level/block/state/properties/IBlockState$a;)Lnw; -> extend
+Unseen: net/minecraft/data/models/BlockModelGenerators:ap ()V -> createStonecutter
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker:a ()V -> clearCounts
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:c (J)Z -> addBit
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/lang/String;)Lof; -> trialSpawner
+Unseen: net/minecraft/data/tags/PaintingVariantTagsProvider:a (Lnet/minecraft/core/HolderLookup$a;)V -> addTags
+Unseen: net/minecraft/data/models/BlockModelGenerators:d (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/resources/MinecraftKey;)Lnr; -> createTrapdoor
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:b (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/Criterion; -> placedComparatorReadingBlock
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker$b:a ()Lit/unimi/dsi/fastutil/objects/Object2IntMap; -> featureData
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createAttachedStemDrops
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:d (Lnet/minecraft/world/level/block/Block;)Lno$b; -> fence
+Unseen: net/minecraft/data/models/model/TextureMapping:a (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lof; -> attachedStem
+Unseen: net/minecraft/data/models/model/TextureMapping:c (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lof; -> craftingTable
+Unseen: net/minecraft/server/packs/DownloadQueue$a:d ()Ljava/net/Proxy; -> proxy
+Unseen: net/minecraft/data/models/BlockModelGenerators:S ()V -> createDirtPath
+Unseen: net/minecraft/data/recipes/RecipeBuilder:a (Ljava/lang/String;)Lol; -> group
+Unseen: net/minecraft/data/models/BlockModelGenerators$d:b ()Ljava/lang/String; -> modelSuffix
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:a ()J -> removeFirstBit
+Unseen: net/minecraft/data/models/model/TextureMapping:v (Lnet/minecraft/world/level/block/Block;)Lof; -> fire0
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/MinecraftKey;)Lnu; -> createRotatedVariant
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:b (Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$a; -> createNameableBlockEntityTable
+Unseen: net/minecraft/data/recipes/RecipeProvider:a (Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> doorBuilder
+Unseen: net/minecraft/data/recipes/SingleItemRecipeBuilder:a (Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lol; -> unlockedBy
+Unseen: net/minecraft/data/models/BlockModelGenerators:ae ()V -> createVault
+Unseen: net/minecraft/data/models/BlockModelGenerators:aD ()V -> createPetrifiedOakSlab
+Unseen: com/mojang/math/Divisor:a (II)Ljava/lang/Iterable; -> asIterable
+Unseen: net/minecraft/data/models/BlockModelGenerators:i ()V -> createPitcherCrop
+Unseen: net/minecraft/data/models/model/TextureMapping:d (Lnet/minecraft/resources/MinecraftKey;)Lof; -> plant
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/core/EnumDirection;Lnet/minecraft/world/level/block/state/properties/DripstoneThickness;)Lnx; -> createPointedDripstoneVariant
+Unseen: net/minecraft/data/models/BlockModelGenerators:G (Lnet/minecraft/world/level/block/Block;)V -> createShulkerBox
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/resources/MinecraftKey;Lnet/minecraft/world/level/block/Block;)Lno$a; -> blockEntityModels
+Unseen: net/minecraft/data/recipes/SpecialRecipeBuilder:a (Ljava/util/function/Function;)Lov; -> special
+Unseen: net/minecraft/data/recipes/RecipeProvider:e (Lom;Lnet/minecraft/world/level/IMaterial;Lnet/minecraft/world/item/crafting/RecipeItemStack;)Lol; -> polishedBuilder
+Unseen: net/minecraft/data/tags/TagsProvider$b:b (Lnet/minecraft/resources/MinecraftKey;)Lpz$b; -> addOptionalTag
+Unseen: net/minecraft/data/models/model/TextureMapping:C (Lnet/minecraft/world/level/block/Block;)Lof; -> orientableCubeSameEnds
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:a (Lnet/minecraft/world/item/crafting/RecipeItemStack;Lom;Lnet/minecraft/world/level/IMaterial;FI)Lor; -> campfireCooking
+Unseen: net/minecraft/data/models/BlockModelGenerators:b (Lnet/minecraft/world/level/block/Block;Lno$e;)V -> createCrossBlock
+Unseen: net/minecraft/util/DebugBuffer:a ()Ljava/util/List; -> dump
+Unseen: net/minecraft/util/ArrayListDeque:b ()Layk; -> reversed
+Unseen: net/minecraft/data/models/model/ModelTemplate:a (Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lof;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/MinecraftKey; -> createWithSuffix
+Unseen: net/minecraft/data/recipes/RecipeBuilder:a (Lom;)Lnet/minecraft/world/item/crafting/CraftingBookCategory; -> determineBookCategory
+Unseen: net/minecraft/data/recipes/RecipeProvider:a ([Lnet/minecraft/advancements/critereon/CriterionConditionItem$a;)Lnet/minecraft/advancements/Criterion; -> inventoryTrigger
+Unseen: net/minecraft/data/loot/packs/VanillaFishingLoot:a ()Lnet/minecraft/world/level/storage/loot/LootTable$a; -> fishingFishLootTable
+Unseen: net/minecraft/data/models/BlockModelGenerators:a (Lnet/minecraft/world/level/block/Block;Lof;)V -> createPumpkinVariant
+Unseen: net/minecraft/data/recipes/packs/BundleRecipeProvider:a (Lon;)V -> buildRecipes
+Unseen: net/minecraft/data/models/ItemModelGenerators:a (Lnet/minecraft/world/item/ItemArmor;)V -> generateArmorTrims
+Unseen: net/minecraft/data/models/model/TextureMapping:q (Lnet/minecraft/world/level/block/Block;)Lof; -> cubeBottomTop
+Unseen: net/minecraft/data/models/blockstates/VariantProperties:d -> UV_LOCK
+Unseen: net/minecraft/data/models/blockstates/VariantProperties:e -> WEIGHT
+Unseen: net/minecraft/data/models/blockstates/VariantProperties$a:a -> R0
+Unseen: net/minecraft/data/models/blockstates/VariantProperties$a:b -> R90
+Unseen: net/minecraft/data/models/blockstates/VariantProperties$a:c -> R180
+Unseen: net/minecraft/data/models/blockstates/VariantProperties$a:d -> R270
+Unseen: net/minecraft/network/chat/SubStringSource:c -> reverseCharModifier
+Unseen: net/minecraft/network/chat/SubStringSource:b -> charStyles
+Unseen: net/minecraft/network/chat/SubStringSource:a -> plainText
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:j -> lastOuterKey
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:k -> minSize
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:h -> OUTER_MASK
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:b -> Z_BITS
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:c -> Y_BITS
+Unseen: net/minecraft/world/level/lighting/SpatialLongSet$a:a -> X_BITS
+Unseen: net/minecraft/server/packs/DownloadQueue$b:a -> downloaded
+Unseen: net/minecraft/server/packs/DownloadQueue$b:b -> failed
+Unseen: net/minecraft/util/eventlog/JsonEventLog$1:a -> val$reader
+Unseen: net/minecraft/server/packs/DownloadQueue$a:a -> hashFunction
+Unseen: com/mojang/math/Divisor:d -> returnedParts
+Unseen: com/mojang/math/Divisor:b -> quotient
+Unseen: net/minecraft/data/HashCache$a:c -> oldCache
+Unseen: net/minecraft/data/HashCache$a:d -> newCache
+Unseen: net/minecraft/data/HashCache$a:e -> writes
+Unseen: net/minecraft/server/ChainedJsonException$a:b -> jsonKeys
+Unseen: net/minecraft/server/ChainedJsonException$a:a -> filename
+Unseen: net/minecraft/world/level/block/LevelEvent:D -> SOUND_PHANTOM_BITE
+Unseen: net/minecraft/world/level/block/LevelEvent:E -> SOUND_ZOMBIE_TO_DROWNED
+Unseen: net/minecraft/world/level/block/LevelEvent:B -> SOUND_BREWING_STAND_BREW
+Unseen: net/minecraft/world/level/block/LevelEvent:C -> SOUND_END_PORTAL_SPAWN
+Unseen: net/minecraft/world/level/block/LevelEvent:A -> SOUND_CHORUS_DEATH
+Unseen: net/minecraft/world/level/block/LevelEvent:l -> SOUND_ZOMBIE_WOODEN_DOOR
+Unseen: net/minecraft/world/level/block/LevelEvent:m -> SOUND_ZOMBIE_IRON_DOOR
+Unseen: net/minecraft/world/level/block/LevelEvent:j -> SOUND_DRAGON_FIREBALL
+Unseen: net/minecraft/world/level/block/LevelEvent:k -> SOUND_BLAZE_FIREBALL
+Unseen: net/minecraft/world/level/block/LevelEvent:h -> SOUND_GHAST_WARNING
+Unseen: net/minecraft/world/level/block/LevelEvent:i -> SOUND_GHAST_FIREBALL
+Unseen: net/minecraft/world/level/block/LevelEvent:f -> SOUND_PLAY_JUKEBOX_SONG
+Unseen: net/minecraft/world/level/block/LevelEvent:g -> SOUND_STOP_JUKEBOX_SONG
+Unseen: net/minecraft/world/level/block/LevelEvent:t -> SOUND_ZOMBIE_CONVERTED
+Unseen: net/minecraft/world/level/block/LevelEvent:u -> SOUND_DRAGON_DEATH
+Unseen: net/minecraft/world/level/block/LevelEvent:r -> SOUND_BAT_LIFTOFF
+Unseen: net/minecraft/world/level/block/LevelEvent:s -> SOUND_ZOMBIE_INFECTED
+Unseen: net/minecraft/world/level/block/LevelEvent:p -> SOUND_WITHER_BOSS_SPAWN
+Unseen: net/minecraft/world/level/block/LevelEvent:q -> SOUND_WITHER_BOSS_SHOOT
+Unseen: net/minecraft/world/level/block/LevelEvent:n -> SOUND_ZOMBIE_DOOR_CRASH
+Unseen: net/minecraft/world/level/block/LevelEvent:o -> SOUND_WITHER_BLOCK_BREAK
+Unseen: net/minecraft/world/level/block/LevelEvent:z -> SOUND_CHORUS_GROW
+Unseen: net/minecraft/world/level/block/LevelEvent:x -> SOUND_ANVIL_LAND
+Unseen: net/minecraft/world/level/block/LevelEvent:y -> SOUND_PORTAL_TRAVEL
+Unseen: net/minecraft/world/level/block/LevelEvent:v -> SOUND_ANVIL_BROKEN
+Unseen: net/minecraft/world/level/block/LevelEvent:w -> SOUND_ANVIL_USED
+Unseen: net/minecraft/world/level/block/LevelEvent:L -> SOUND_DRIP_WATER_INTO_CAULDRON
+Unseen: net/minecraft/world/level/block/LevelEvent:M -> SOUND_SKELETON_TO_STRAY
+Unseen: net/minecraft/world/level/block/LevelEvent:J -> SOUND_POINTED_DRIPSTONE_LAND
+Unseen: net/minecraft/world/level/block/LevelEvent:K -> SOUND_DRIP_LAVA_INTO_CAULDRON
+Unseen: net/minecraft/world/level/block/LevelEvent:H -> SOUND_PAGE_TURN
+Unseen: net/minecraft/world/level/block/LevelEvent:I -> SOUND_SMITHING_TABLE_USED
+Unseen: net/minecraft/world/level/block/LevelEvent:F -> SOUND_HUSK_TO_ZOMBIE
+Unseen: net/minecraft/world/level/block/LevelEvent:G -> SOUND_GRINDSTONE_USED
+Unseen: net/minecraft/world/level/block/LevelEvent:U -> DRIPSTONE_DRIP
+Unseen: net/minecraft/world/level/block/LevelEvent:R -> LAVA_FIZZ
+Unseen: net/minecraft/world/level/block/LevelEvent:P -> SOUND_WIND_CHARGE_SHOOT
+Unseen: net/minecraft/world/level/block/LevelEvent:N -> SOUND_CRAFTER_CRAFT
+Unseen: net/minecraft/world/level/block/LevelEvent:O -> SOUND_CRAFTER_FAIL
+Unseen: net/minecraft/world/level/block/LevelEvent:Z -> PARTICLES_EYE_OF_ENDER_DEATH
+Unseen: net/minecraft/world/level/block/LevelEvent:X -> PARTICLES_DESTROY_BLOCK
+Unseen: net/minecraft/world/level/block/LevelEvent:Y -> PARTICLES_SPELL_POTION_SPLASH
+Unseen: net/minecraft/world/level/block/LevelEvent:V -> PARTICLES_AND_SOUND_PLANT_GROWTH
+Unseen: net/minecraft/world/level/block/LevelEvent:W -> PARTICLES_SHOOT_SMOKE
+Unseen: net/minecraft/world/level/block/LevelEvent:d -> SOUND_FIREWORK_SHOOT
+Unseen: net/minecraft/world/level/block/LevelEvent:e -> SOUND_EXTINGUISH_FIRE
+Unseen: net/minecraft/world/level/block/LevelEvent:b -> SOUND_DISPENSER_FAIL
+Unseen: net/minecraft/world/level/block/LevelEvent:c -> SOUND_DISPENSER_PROJECTILE_LAUNCH
+Unseen: net/minecraft/world/level/block/LevelEvent:a -> SOUND_DISPENSER_DISPENSE
+Unseen: net/minecraft/util/SmoothDouble:a -> targetValue
+Unseen: net/minecraft/util/SmoothDouble:b -> remainingValue
+Unseen: net/minecraft/util/SmoothDouble:c -> lastAmount
+Unseen: com/mojang/math/Axis:f -> ZP
+Unseen: com/mojang/math/Axis:e -> ZN
+Unseen: com/mojang/math/Axis:b -> XP
+Unseen: com/mojang/math/Axis:a -> XN
+Unseen: com/mojang/math/Axis:d -> YP
+Unseen: com/mojang/math/Axis:c -> YN
+Unseen: net/minecraft/data/DataGenerator:b -> rootOutputFolder
+Unseen: net/minecraft/data/DataGenerator:c -> vanillaPackOutput
+Unseen: net/minecraft/data/DataGenerator:d -> allProviderIds
+Unseen: net/minecraft/data/DataGenerator:e -> providersToRun
+Unseen: net/minecraft/data/DataGenerator:g -> alwaysGenerate
+Unseen: net/minecraft/server/chase/ChaseServer$a:a -> dimensionName
+Unseen: net/minecraft/data/tags/IntrinsicHolderTagsProvider:d -> keyExtractor
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:d -> FISH
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:e -> FISH_BUCKETS
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:f -> EDIBLE_ITEMS
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:a -> BREEDABLE_ANIMALS
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:b -> INDIRECTLY_BREEDABLE_ANIMALS
+Unseen: net/minecraft/data/advancements/packs/VanillaHusbandryAdvancements:c -> WAX_SCRAPING_TOOLS
+Unseen: net/minecraft/data/tags/ItemTagsProvider:d -> blockTags
+Unseen: net/minecraft/data/tags/ItemTagsProvider:g -> tagsToCopy
+Unseen: net/minecraft/data/info/BiomeParametersDumpReport:e -> topPath
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$b:a -> NEWEST_FIRST
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$b:c -> modifiedTime
+Unseen: net/minecraft/data/models/model/ModelTemplate:b -> requiredSlots
+Unseen: net/minecraft/data/models/model/ModelTemplate:a -> model
+Unseen: net/minecraft/util/CommonColors:i -> SOFT_RED
+Unseen: net/minecraft/util/CommonColors:k -> SOFT_YELLOW
+Unseen: net/minecraft/util/CommonColors:e -> LIGHTER_GRAY
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:g -> NORMAL_LEAVES_STICK_CHANCES
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:f -> NORMAL_LEAVES_SAPLING_CHANCES
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:a -> HAS_SHEARS
+Unseen: net/minecraft/data/loot/BlockLootSubProvider:c -> explosionResistant
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:b -> baseVariants
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:c -> seenProperties
+Unseen: net/minecraft/data/models/blockstates/MultiVariantGenerator:d -> declaredPropertySets
+Unseen: net/minecraft/util/eventlog/JsonEventLogReader$1:a -> val$jsonReader
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:f -> COPPER_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:g -> GOLD_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:d -> COAL_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:e -> IRON_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:j -> REDSTONE_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:k -> EMERALD_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:h -> DIAMOND_SMELTABLES
+Unseen: net/minecraft/data/recipes/packs/VanillaRecipeProvider:i -> LAPIS_SMELTABLES
+Unseen: net/minecraft/server/chase/ChaseClient:b -> RECONNECT_INTERVAL_SECONDS
+Unseen: net/minecraft/server/chase/ChaseClient:c -> serverHost
+Unseen: net/minecraft/server/chase/ChaseClient:f -> wantsToRun
+Unseen: net/minecraft/gametest/framework/JUnitLikeTestReporter:a -> document
+Unseen: net/minecraft/gametest/framework/JUnitLikeTestReporter:b -> testSuite
+Unseen: net/minecraft/gametest/framework/JUnitLikeTestReporter:c -> stopwatch
+Unseen: net/minecraft/world/entity/EntityEvent:ac -> SONIC_CHARGE
+Unseen: net/minecraft/world/entity/EntityEvent:ad -> SNIFFER_DIGGING_SOUND
+Unseen: net/minecraft/world/entity/EntityEvent:af -> BODY_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:ab -> TENDRILS_SHIVER
+Unseen: net/minecraft/world/level/entity/TransientEntitySectionManager:c -> entityStorage
+Unseen: net/minecraft/world/level/entity/TransientEntitySectionManager:e -> tickingChunks
+Unseen: net/minecraft/data/BlockFamily$a:a -> family
+Unseen: net/minecraft/data/BlockFamily$b:b -> CHISELED
+Unseen: net/minecraft/data/BlockFamily$b:a -> BUTTON
+Unseen: net/minecraft/data/BlockFamily$b:f -> CUSTOM_FENCE
+Unseen: net/minecraft/data/BlockFamily$b:d -> CUT
+Unseen: net/minecraft/data/BlockFamily$b:e -> DOOR
+Unseen: net/minecraft/data/BlockFamily$b:j -> MOSAIC
+Unseen: net/minecraft/data/BlockFamily$b:h -> CUSTOM_FENCE_GATE
+Unseen: net/minecraft/data/BlockFamily$b:i -> FENCE_GATE
+Unseen: net/minecraft/data/BlockFamily$b:n -> PRESSURE_PLATE
+Unseen: net/minecraft/data/BlockFamily$b:o -> POLISHED
+Unseen: net/minecraft/data/BlockFamily$b:l -> SLAB
+Unseen: net/minecraft/data/BlockFamily$b:r -> WALL_SIGN
+Unseen: net/minecraft/data/BlockFamily$b:s -> recipeGroup
+Unseen: net/minecraft/world/entity/EntityEvent:D -> FISHING_ROD_REEL_IN
+Unseen: net/minecraft/world/entity/EntityEvent:E -> ARMORSTAND_WOBBLE
+Unseen: net/minecraft/world/entity/EntityEvent:B -> ATTACK_BLOCKED
+Unseen: net/minecraft/world/entity/EntityEvent:C -> SHIELD_DISABLED
+Unseen: net/minecraft/world/entity/EntityEvent:A -> PERMISSION_LEVEL_OWNERS
+Unseen: net/minecraft/world/entity/EntityEvent:L -> VILLAGER_SWEAT
+Unseen: net/minecraft/world/entity/EntityEvent:J -> TRUSTING_FAILED
+Unseen: net/minecraft/world/entity/EntityEvent:K -> TRUSTING_SUCCEEDED
+Unseen: net/minecraft/world/entity/EntityEvent:H -> DOLPHIN_LOOKING_FOR_TREASURE
+Unseen: net/minecraft/world/entity/EntityEvent:F -> STOP_OFFER_FLOWER
+Unseen: net/minecraft/world/entity/EntityEvent:G -> TALISMAN_ACTIVATE
+Unseen: net/minecraft/world/entity/EntityEvent:T -> FEET_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:U -> HONEY_SLIDE
+Unseen: net/minecraft/world/entity/EntityEvent:R -> CHEST_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:S -> LEGS_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:P -> OFFHAND_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:Q -> HEAD_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:O -> MAINHAND_BREAK
+Unseen: net/minecraft/world/entity/EntityEvent:Z -> END_RAM
+Unseen: net/minecraft/world/entity/EntityEvent:X -> CANCEL_SHAKE_WETNESS
+Unseen: net/minecraft/world/entity/EntityEvent:Y -> START_RAM
+Unseen: net/minecraft/world/entity/EntityEvent:V -> HONEY_JUMP
+Unseen: net/minecraft/world/entity/EntityEvent:W -> SWAP_HANDS
+Unseen: net/minecraft/world/entity/EntityEvent:d -> STOP_ATTACKING
+Unseen: net/minecraft/world/entity/EntityEvent:e -> TAMING_FAILED
+Unseen: net/minecraft/world/entity/EntityEvent:b -> DEATH
+Unseen: net/minecraft/world/entity/EntityEvent:c -> START_ATTACKING
+Unseen: net/minecraft/world/entity/EntityEvent:l -> VILLAGER_ANGRY
+Unseen: net/minecraft/world/entity/EntityEvent:m -> VILLAGER_HAPPY
+Unseen: net/minecraft/world/entity/EntityEvent:j -> OFFER_FLOWER
+Unseen: net/minecraft/world/entity/EntityEvent:k -> LOVE_HEARTS
+Unseen: net/minecraft/world/entity/EntityEvent:h -> USE_ITEM_COMPLETE
+Unseen: net/minecraft/world/entity/EntityEvent:i -> EAT_GRASS
+Unseen: net/minecraft/world/entity/EntityEvent:f -> TAMING_SUCCEEDED
+Unseen: net/minecraft/world/entity/EntityEvent:g -> SHAKE_WETNESS
+Unseen: net/minecraft/world/entity/EntityEvent:t -> GUARDIAN_ATTACK_SOUND
+Unseen: net/minecraft/world/entity/EntityEvent:u -> REDUCED_DEBUG_INFO
+Unseen: net/minecraft/world/entity/EntityEvent:r -> SQUID_ANIM_SYNCH
+Unseen: net/minecraft/world/entity/EntityEvent:s -> SILVERFISH_MERGE_ANIM
+Unseen: net/minecraft/world/entity/EntityEvent:p -> FIREWORKS_EXPLODE
+Unseen: net/minecraft/world/entity/EntityEvent:q -> IN_LOVE_HEARTS
+Unseen: net/minecraft/world/entity/EntityEvent:n -> WITCH_HAT_MAGIC
+Unseen: net/minecraft/world/entity/EntityEvent:o -> ZOMBIE_CONVERTING
+Unseen: net/minecraft/world/entity/EntityEvent:z -> PERMISSION_LEVEL_ADMINS
+Unseen: net/minecraft/world/entity/EntityEvent:x -> PERMISSION_LEVEL_MODERATORS
+Unseen: net/minecraft/world/entity/EntityEvent:y -> PERMISSION_LEVEL_GAMEMASTERS
+Unseen: net/minecraft/world/entity/EntityEvent:v -> FULL_DEBUG_INFO
+Unseen: net/minecraft/world/entity/EntityEvent:w -> PERMISSION_LEVEL_ALL
+Unseen: net/minecraft/data/recipes/RecipeBuilder:a -> ROOT_RECIPE_ADVANCEMENT
+Unseen: net/minecraft/util/CubicSampler:b -> GAUSSIAN_SAMPLE_BREADTH
+Unseen: net/minecraft/util/CubicSampler:a -> GAUSSIAN_SAMPLE_RADIUS
+Unseen: net/minecraft/util/CubicSampler:c -> GAUSSIAN_SAMPLE_KERNEL
+Unseen: net/minecraft/data/DataGenerator$a:b -> toRun
+Unseen: net/minecraft/data/DataGenerator$a:c -> providerPrefix
+Unseen: net/minecraft/util/eventlog/JsonEventLog:d -> referenceCount
+Unseen: net/minecraft/data/recipes/RecipeBuilder$1:a -> $SwitchMap$net$minecraft$data$recipes$RecipeCategory
+Unseen: net/minecraft/network/HandlerNames:o -> LEGACY_QUERY
+Unseen: net/minecraft/network/HandlerNames:p -> LATENCY
+Unseen: net/minecraft/data/models/model/TexturedModel:c -> CUBE_MIRRORED
+Unseen: net/minecraft/data/models/model/TexturedModel:b -> CUBE_INNER_FACES
+Unseen: net/minecraft/network/HandlerNames:k -> UNBUNDLER
+Unseen: net/minecraft/network/HandlerNames:l -> BUNDLER
+Unseen: net/minecraft/network/HandlerNames:m -> PACKET_HANDLER
+Unseen: net/minecraft/network/HandlerNames:h -> PREPENDER
+Unseen: net/minecraft/network/HandlerNames:i -> DECRYPT
+Unseen: net/minecraft/network/HandlerNames:j -> ENCRYPT
+Unseen: net/minecraft/data/models/model/TexturedModel:m -> FLOWERBED_3
+Unseen: net/minecraft/data/models/model/TexturedModel:l -> FLOWERBED_2
+Unseen: net/minecraft/data/models/model/TexturedModel:o -> GLAZED_TERRACOTTA
+Unseen: net/minecraft/data/models/model/TexturedModel:n -> FLOWERBED_4
+Unseen: net/minecraft/data/models/model/TexturedModel:q -> PARTICLE_ONLY
+Unseen: net/minecraft/data/models/model/TexturedModel:p -> CORAL_FAN
+Unseen: net/minecraft/data/models/model/TexturedModel:e -> COLUMN_HORIZONTAL
+Unseen: net/minecraft/data/models/model/TexturedModel:d -> COLUMN
+Unseen: net/minecraft/data/models/model/TexturedModel:g -> CUBE_TOP
+Unseen: net/minecraft/data/models/model/TexturedModel:f -> CUBE_TOP_BOTTOM
+Unseen: net/minecraft/data/models/model/TexturedModel:i -> ORIENTABLE
+Unseen: net/minecraft/data/models/model/TexturedModel:h -> ORIENTABLE_ONLY_TOP
+Unseen: net/minecraft/data/models/model/TexturedModel:k -> FLOWERBED_1
+Unseen: net/minecraft/data/models/model/TexturedModel:j -> CARPET
+Unseen: net/minecraft/data/models/model/TexturedModel:A -> mapping
+Unseen: net/minecraft/data/models/model/TexturedModel:u -> HANGING_LANTERN
+Unseen: net/minecraft/data/models/model/TexturedModel:w -> COLUMN_ALT
+Unseen: net/minecraft/data/models/model/TexturedModel:y -> TOP_BOTTOM_WITH_WALL
+Unseen: net/minecraft/data/models/model/TexturedModel:x -> COLUMN_HORIZONTAL_ALT
+Unseen: net/minecraft/data/models/model/TexturedModel:z -> COLUMN_WITH_WALL
+Unseen: net/minecraft/data/recipes/RecipeProvider:e -> advancementPathProvider
+Unseen: net/minecraft/data/recipes/RecipeProvider:d -> recipePathProvider
+Unseen: net/minecraft/data/recipes/RecipeProvider:g -> SHAPE_BUILDERS
+Unseen: net/minecraft/network/HandlerNames:c -> DECODER
+Unseen: net/minecraft/network/HandlerNames:d -> ENCODER
+Unseen: net/minecraft/network/HandlerNames:e -> INBOUND_CONFIG
+Unseen: net/minecraft/network/HandlerNames:f -> OUTBOUND_CONFIG
+Unseen: net/minecraft/network/HandlerNames:a -> DECOMPRESS
+Unseen: net/minecraft/network/HandlerNames:b -> COMPRESS
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$a:a -> HIGHEST_PRIORITY_FIRST
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$a:c -> removalPriority
+Unseen: net/minecraft/server/packs/DownloadQueue$e:f -> errorOrFileInfo
+Unseen: net/minecraft/tags/FlatLevelGeneratorPresetTags:a -> VISIBLE
+Unseen: net/minecraft/util/LowerCaseEnumTypeAdapterFactory$1:a -> val$lowercaseToConstant
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$1:a -> val$cacheDir
+Unseen: net/minecraft/server/packs/DownloadCacheCleaner$1:b -> val$unsortedFiles
+Unseen: net/minecraft/server/commands/ChaseCommand:h -> chaseClient
+Unseen: net/minecraft/server/commands/ChaseCommand:g -> chaseServer
+Unseen: net/minecraft/server/commands/ChaseCommand:f -> BROADCAST_INTERVAL_MS
+Unseen: net/minecraft/server/commands/ChaseCommand:a -> DIMENSION_NAMES
+Unseen: net/minecraft/server/commands/ChaseCommand:e -> DEFAULT_PORT
+Unseen: net/minecraft/server/commands/ChaseCommand:d -> DEFAULT_BIND_ADDRESS
+Unseen: net/minecraft/server/commands/ChaseCommand:c -> DEFAULT_CONNECT_HOST
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:b -> SPECIAL_LOOT_TABLE_TYPES
+Unseen: net/minecraft/data/loot/EntityLootSubProvider:c -> allowed
+Unseen: net/minecraft/data/models/BlockModelGenerators$a:b -> baseModel
+Unseen: net/minecraft/world/level/levelgen/Density:c -> UNRECOVERABLY_THIN
+Unseen: net/minecraft/world/level/levelgen/Density:b -> UNRECOVERABLY_DENSE
+Unseen: net/minecraft/util/eventlog/EventLogDirectory:c -> COMPRESSED_EXTENSION
+Unseen: net/minecraft/util/eventlog/EventLogDirectory:b -> COMPRESS_BUFFER_SIZE
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:f -> skipGeneratingModelsFor
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:e -> fullBlock
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:d -> family
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:c -> models
+Unseen: net/minecraft/data/models/BlockModelGenerators$b:b -> mapping
+Unseen: net/minecraft/data/models/ModelProvider:d -> blockStatePathProvider
+Unseen: net/minecraft/data/models/ModelProvider:e -> modelPathProvider
+Unseen: net/minecraft/data/models/BlockModelGenerators:c -> modelOutput
+Unseen: net/minecraft/data/models/BlockModelGenerators:b -> blockStateOutput
+Unseen: net/minecraft/data/models/BlockModelGenerators:e -> nonOrientableTrapdoor
+Unseen: net/minecraft/data/models/BlockModelGenerators:d -> skippedAutoModelsOutput
+Unseen: net/minecraft/data/models/BlockModelGenerators:g -> texturedModels
+Unseen: net/minecraft/data/models/BlockModelGenerators:f -> fullBlockModelCustomGenerators
+Unseen: net/minecraft/data/models/BlockModelGenerators:i -> CHISELED_BOOKSHELF_SLOT_MODEL_CACHE
+Unseen: net/minecraft/data/models/BlockModelGenerators:h -> SHAPE_CONSUMERS
+Unseen: net/minecraft/data/models/BlockModelGenerators:a -> MULTIFACE_GENERATOR
+Unseen: net/minecraft/data/models/BlockModelGenerators$d:b -> modelSuffix
+Unseen: net/minecraft/world/entity/player/ProfileKeyPair:d -> refreshedAfter
+Unseen: net/minecraft/world/entity/player/ProfileKeyPair:b -> privateKey
+Unseen: net/minecraft/data/models/BlockModelGenerators$e:b -> NOT_TINTED
+Unseen: net/minecraft/data/models/BlockModelGenerators$e:a -> TINTED
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$b:b -> property2
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$b:a -> property1
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$a:a -> property1
+Unseen: net/minecraft/data/models/BlockModelGenerators$f:b -> logMapping
+Unseen: net/minecraft/util/PngInfo:c -> PNG_HEADER
+Unseen: net/minecraft/util/PngInfo:d -> IHDR_TYPE
+Unseen: net/minecraft/util/PngInfo:e -> IHDR_SIZE
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$d:b -> property2
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$d:a -> property1
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$d:d -> property4
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$d:c -> property3
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker$b:a -> featureData
+Unseen: net/minecraft/world/level/levelgen/feature/FeatureCountTracker$b:b -> chunksWithFeatures
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$c:c -> property3
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$c:b -> property2
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$c:a -> property1
+Unseen: net/minecraft/world/level/redstone/Redstone:c -> SIGNAL_NONE
+Unseen: net/minecraft/world/level/redstone/Redstone:b -> SIGNAL_MAX
+Unseen: net/minecraft/world/level/redstone/Redstone:a -> SIGNAL_MIN
+Unseen: net/minecraft/data/models/blockstates/Selector:b -> COMPARE_BY_NAME
+Unseen: net/minecraft/server/chase/ChaseServer:b -> serverBindAddress
+Unseen: net/minecraft/server/chase/ChaseServer:e -> broadcastIntervalMs
+Unseen: net/minecraft/server/chase/ChaseServer:g -> serverSocket
+Unseen: net/minecraft/server/chase/ChaseServer:f -> wantsToRun
+Unseen: net/minecraft/server/chase/ChaseServer:h -> clientSockets
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$e:a -> property1
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$e:e -> property5
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$e:d -> property4
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$e:c -> property3
+Unseen: net/minecraft/data/models/blockstates/PropertyDispatch$e:b -> property2
+Unseen: net/minecraft/data/tags/GameEventTagsProvider:d -> VIBRATIONS_EXCEPT_FLAP
+Unseen: net/minecraft/data/recipes/ShapedRecipeBuilder:e -> rows
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:l -> END_LOGICAL_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:k -> END_GENERATION_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:h -> NETHER_LOGICAL_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:g -> NETHER_GENERATION_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:j -> END_LEVEL_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:i -> END_MIN_Y
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:d -> OVERWORLD_LOGICAL_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:c -> OVERWORLD_GENERATION_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:f -> NETHER_LEVEL_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:e -> NETHER_MIN_Y
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:b -> OVERWORLD_LEVEL_HEIGHT
+Unseen: net/minecraft/world/level/dimension/DimensionDefaults:a -> OVERWORLD_MIN_Y
+Unseen: net/minecraft/data/recipes/SimpleCookingRecipeBuilder:c -> bookCategory
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$c:a -> date
+Unseen: net/minecraft/util/eventlog/EventLogDirectory$c:c -> DATE_FORMATTER
+Unseen: net/minecraft/data/recipes/RecipeCategory:j -> recipeFolderName
+Unseen: net/minecraft/data/recipes/RecipeCategory:h -> BREWING
+Unseen: net/minecraft/data/recipes/RecipeCategory:e -> TOOLS
+Unseen: net/minecraft/data/recipes/RecipeCategory:d -> TRANSPORTATION
+Unseen: net/minecraft/data/recipes/RecipeCategory:b -> DECORATIONS
+Unseen: net/minecraft/data/tags/TagsProvider:e -> pathProvider
+Unseen: net/minecraft/data/tags/TagsProvider:g -> contentsDone
+Unseen: net/minecraft/data/tags/TagsProvider:h -> parentProvider
+Unseen: net/minecraft/data/tags/TagsProvider:i -> builders
+Unseen: net/minecraft/data/models/blockstates/Condition$a:b -> subconditions
+Unseen: net/minecraft/data/HashCache:b -> HEADER_MARKER
+Unseen: net/minecraft/data/HashCache:e -> versionId
+Unseen: net/minecraft/data/HashCache:f -> caches
+Unseen: net/minecraft/data/HashCache:c -> rootDir
+Unseen: net/minecraft/data/HashCache:d -> cacheDir
+Unseen: net/minecraft/data/HashCache:i -> initialCount
+Unseen: net/minecraft/data/HashCache:j -> writes
+Unseen: net/minecraft/data/HashCache:g -> cachesToWrite
+Unseen: net/minecraft/data/HashCache:h -> cachePaths
+Unseen: net/minecraft/util/ArrayListDeque:a -> MIN_GROWTH
+Unseen: net/minecraft/data/models/model/ModelTemplates:B -> DOOR_TOP_RIGHT
+Unseen: net/minecraft/data/models/model/ModelTemplates:C -> DOOR_TOP_RIGHT_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:A -> DOOR_TOP_LEFT_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:F -> CUSTOM_FENCE_SIDE_EAST
+Unseen: net/minecraft/data/models/model/ModelTemplates:G -> CUSTOM_FENCE_SIDE_SOUTH
+Unseen: net/minecraft/data/models/model/ModelTemplates:D -> CUSTOM_FENCE_POST
+Unseen: net/minecraft/data/models/model/ModelTemplates:E -> CUSTOM_FENCE_SIDE_NORTH
+Unseen: net/minecraft/data/models/model/ModelTemplates:J -> FENCE_POST
+Unseen: net/minecraft/data/models/model/ModelTemplates:K -> FENCE_SIDE
+Unseen: net/minecraft/data/models/model/ModelTemplates:H -> CUSTOM_FENCE_SIDE_WEST
+Unseen: net/minecraft/data/models/model/ModelTemplates:I -> CUSTOM_FENCE_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:N -> WALL_LOW_SIDE
+Unseen: net/minecraft/data/models/model/ModelTemplates:O -> WALL_TALL_SIDE
+Unseen: net/minecraft/data/models/model/ModelTemplates:L -> FENCE_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:M -> WALL_POST
+Unseen: net/minecraft/data/models/model/ModelTemplates:R -> CUSTOM_FENCE_GATE_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:S -> CUSTOM_FENCE_GATE_WALL_CLOSED
+Unseen: net/minecraft/data/models/model/ModelTemplates:P -> WALL_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:Q -> CUSTOM_FENCE_GATE_CLOSED
+Unseen: net/minecraft/data/models/model/ModelTemplates:W -> FENCE_GATE_WALL_CLOSED
+Unseen: net/minecraft/data/models/model/ModelTemplates:T -> CUSTOM_FENCE_GATE_WALL_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:U -> FENCE_GATE_CLOSED
+Unseen: net/minecraft/data/models/model/ModelTemplates:Z -> PRESSURE_PLATE_DOWN
+Unseen: net/minecraft/data/models/model/ModelTemplates:X -> FENCE_GATE_WALL_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:Y -> PRESSURE_PLATE_UP
+Unseen: net/minecraft/data/models/model/ModelTemplates:b -> CUBE_DIRECTIONAL
+Unseen: net/minecraft/data/models/model/ModelTemplates:c -> CUBE_ALL
+Unseen: net/minecraft/data/models/model/ModelTemplates:f -> CUBE_NORTH_WEST_MIRRORED_ALL
+Unseen: net/minecraft/data/models/model/ModelTemplates:g -> CUBE_COLUMN_UV_LOCKED_X
+Unseen: net/minecraft/data/models/model/ModelTemplates:d -> CUBE_ALL_INNER_FACES
+Unseen: net/minecraft/data/models/model/ModelTemplates:e -> CUBE_MIRRORED_ALL
+Unseen: net/minecraft/data/models/model/ModelTemplates:j -> CUBE_COLUMN
+Unseen: net/minecraft/data/models/model/ModelTemplates:k -> CUBE_COLUMN_HORIZONTAL
+Unseen: net/minecraft/data/models/model/ModelTemplates:h -> CUBE_COLUMN_UV_LOCKED_Y
+Unseen: net/minecraft/data/models/model/ModelTemplates:i -> CUBE_COLUMN_UV_LOCKED_Z
+Unseen: net/minecraft/data/models/model/ModelTemplates:n -> CUBE_BOTTOM_TOP
+Unseen: net/minecraft/data/models/model/ModelTemplates:o -> CUBE_BOTTOM_TOP_INNER_FACES
+Unseen: net/minecraft/data/models/model/ModelTemplates:l -> CUBE_COLUMN_MIRRORED
+Unseen: net/minecraft/data/models/model/ModelTemplates:m -> CUBE_TOP
+Unseen: net/minecraft/data/models/model/ModelTemplates:r -> CUBE_ORIENTABLE_VERTICAL
+Unseen: net/minecraft/data/models/model/ModelTemplates:s -> BUTTON
+Unseen: net/minecraft/data/models/model/ModelTemplates:p -> CUBE_ORIENTABLE
+Unseen: net/minecraft/data/models/model/ModelTemplates:q -> CUBE_ORIENTABLE_TOP_BOTTOM
+Unseen: net/minecraft/data/models/model/ModelTemplates:v -> DOOR_BOTTOM_LEFT
+Unseen: net/minecraft/data/models/model/ModelTemplates:w -> DOOR_BOTTOM_LEFT_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:t -> BUTTON_PRESSED
+Unseen: net/minecraft/data/models/model/ModelTemplates:u -> BUTTON_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:z -> DOOR_TOP_LEFT
+Unseen: net/minecraft/data/models/model/ModelTemplates:x -> DOOR_BOTTOM_RIGHT
+Unseen: net/minecraft/data/models/model/ModelTemplates:y -> DOOR_BOTTOM_RIGHT_OPEN
+Unseen: net/minecraft/data/models/model/TextureMapping:b -> forcedSlots
+Unseen: net/minecraft/data/advancements/AdvancementProvider:d -> pathProvider
+Unseen: net/minecraft/data/advancements/AdvancementProvider:e -> subProviders
+Unseen: net/minecraft/data/models/model/TextureSlot:P -> FLOWERBED
+Unseen: net/minecraft/data/models/model/TextureSlot:O -> INNER_TOP
+Unseen: net/minecraft/data/models/model/TextureSlot:K -> LIT_LOG
+Unseen: net/minecraft/data/models/model/TextureSlot:H -> LAYER0
+Unseen: net/minecraft/data/models/model/TextureSlot:J -> LAYER2
+Unseen: net/minecraft/data/models/model/TextureSlot:I -> LAYER1
+Unseen: net/minecraft/data/models/model/TextureSlot:F -> UNSTICKY
+Unseen: net/minecraft/data/models/model/TextureSlot:x -> FAN
+Unseen: net/minecraft/data/models/model/TextureSlot:w -> EDGE
+Unseen: net/minecraft/data/models/model/TextureSlot:z -> UPPER_STEM
+Unseen: net/minecraft/data/models/model/TextureSlot:v -> PANE
+Unseen: net/minecraft/data/models/model/TextureSlot:h -> BACK
+Unseen: net/minecraft/data/models/model/TextureSlot:g -> FRONT
+Unseen: net/minecraft/data/models/model/TextureSlot:b -> TEXTURE
+Unseen: net/minecraft/data/BlockFamilies:X -> PURPUR
+Unseen: net/minecraft/data/structures/SnbtToNbt:g -> filters
+Unseen: net/minecraft/data/advancements/packs/VanillaNetherAdvancements:a -> DISTRACT_PIGLIN_PLAYER_ARMOR_PREDICATE
+Unseen: net/minecraft/data/recipes/RecipeProvider$1:a -> val$allRecipes
+Unseen: net/minecraft/data/recipes/RecipeProvider$1:b -> val$tasks
+Unseen: net/minecraft/data/recipes/RecipeProvider$1:c -> val$cache
+Unseen: net/minecraft/gametest/framework/GameTestServer:u -> WORLD_OPTIONS
+Unseen: net/minecraft/gametest/framework/GameTestServer:v -> testTracker
+Unseen: net/minecraft/gametest/framework/GameTestServer:s -> stopwatch
+Unseen: net/minecraft/gametest/framework/GameTestServer:t -> TEST_GAME_RULES
+Unseen: net/minecraft/gametest/framework/GameTestServer:q -> testFunctions
+Unseen: net/minecraft/gametest/framework/GameTestServer:o -> sampleLogger
+Unseen: net/minecraft/gametest/framework/GameTestServer:p -> testBatches
+Unseen: net/minecraft/gametest/framework/GameTestServer:m -> TEST_POSITION_RANGE
+Unseen: net/minecraft/gametest/framework/GameTestServer:n -> NO_SERVICES
+Unseen: net/minecraft/gametest/framework/GameTestServer:l -> PROGRESS_REPORT_INTERVAL
+Unseen: net/minecraft/network/chat/LastSeenMessagesTracker:b -> tail
+Unseen: net/minecraft/network/chat/LastSeenMessagesTracker:d -> lastTrackedMessage
+Unseen: net/minecraft/data/loot/LootTableProvider:g -> subProviders
+Unseen: net/minecraft/data/loot/LootTableProvider:e -> pathProvider
+Unseen: net/minecraft/data/loot/LootTableProvider:f -> requiredTables
+Unseen: net/minecraft/util/thread/NamedThreadFactory:d -> namePrefix
+Unseen: net/minecraft/util/thread/NamedThreadFactory:c -> threadNumber
+Unseen: net/minecraft/data/models/BlockModelGenerators$1:e -> $SwitchMap$net$minecraft$world$level$block$state$properties$DoubleBlockHalf
+Unseen: net/minecraft/data/models/BlockModelGenerators$1:c -> $SwitchMap$net$minecraft$world$level$block$entity$trialspawner$TrialSpawnerState
+Unseen: net/minecraft/data/models/BlockModelGenerators$1:a -> $SwitchMap$net$minecraft$core$FrontAndTop
+Unseen: net/minecraft/data/models/BlockModelGenerators$1:b -> $SwitchMap$net$minecraft$world$level$block$entity$vault$VaultState
+Unseen: net/minecraft/data/HashCache$1:c -> val$removed
+Unseen: net/minecraft/data/HashCache$1:b -> val$allowedFiles
+Unseen: net/minecraft/data/HashCache$1:a -> val$found
+Unseen: net/minecraft/core/BlockMath:b -> VANILLA_UV_TRANSFORM_GLOBAL_TO_LOCAL
+Unseen: net/minecraft/core/BlockMath:a -> VANILLA_UV_TRANSFORM_LOCAL_TO_GLOBAL
+Unseen: net/minecraft/data/BlockFamilies:aj -> STONE_BRICK
+Unseen: net/minecraft/data/BlockFamilies:ar -> RECIPE_UNLOCKED_BY_HAS_PLANKS
+Unseen: net/minecraft/data/BlockFamilies:aq -> RECIPE_GROUP_PREFIX_WOODEN
+Unseen: net/minecraft/data/HashCache$e:c -> writes
+Unseen: net/minecraft/data/HashCache$e:a -> providerId
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:c -> Y_COORDINATE_AT_TOP
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:b -> DISTANCE_FROM_BOTTOM_TO_TOP
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:e -> BEDROCK_THICKNESS
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:d -> Y_COORDINATE_AT_BOTTOM
+Unseen: net/minecraft/data/advancements/packs/VanillaAdventureAdvancements:a -> MOBS_TO_KILL
+Unseen: net/minecraft/data/BlockFamily:a -> baseBlock
+Unseen: net/minecraft/data/BlockFamily:c -> generateModel
+Unseen: net/minecraft/data/BlockFamily:e -> recipeGroupPrefix
+Unseen: net/minecraft/data/BlockFamily:d -> generateRecipe
+Unseen: net/minecraft/data/BlockFamily:f -> recipeUnlockedBy
+Unseen: net/minecraft/server/level/progress/StoringChunkProgressListener:b -> statuses
+Unseen: net/minecraft/server/level/progress/StoringChunkProgressListener:f -> diameter
+Unseen: net/minecraft/server/level/progress/StoringChunkProgressListener:d -> fullDiameter
+Unseen: net/minecraft/world/level/block/LevelEvent:ao -> PARTICLES_SCRAPE
+Unseen: net/minecraft/world/level/block/LevelEvent:ap -> PARTICLES_SCULK_CHARGE
+Unseen: net/minecraft/world/level/block/LevelEvent:aq -> PARTICLES_SCULK_SHRIEK
+Unseen: net/minecraft/world/level/block/LevelEvent:ar -> PARTICLES_AND_SOUND_BRUSH_BLOCK_COMPLETE
+Unseen: net/minecraft/world/level/block/LevelEvent:ak -> ANIMATION_DRAGON_SUMMON_ROAR
+Unseen: net/minecraft/world/level/block/LevelEvent:al -> PARTICLES_ELECTRIC_SPARK
+Unseen: net/minecraft/world/level/block/LevelEvent:am -> PARTICLES_AND_SOUND_WAX_ON
+Unseen: net/minecraft/world/level/block/LevelEvent:an -> PARTICLES_WAX_OFF
+Unseen: net/minecraft/world/level/block/LevelEvent:aw -> ANIMATION_TRIAL_SPAWNER_EJECT_ITEM
+Unseen: net/minecraft/world/level/block/LevelEvent:ax -> ANIMATION_VAULT_ACTIVATE
+Unseen: net/minecraft/world/level/block/LevelEvent:ay -> ANIMATION_VAULT_DEACTIVATE
+Unseen: net/minecraft/world/level/block/LevelEvent:az -> ANIMATION_VAULT_EJECT_ITEM
+Unseen: net/minecraft/world/level/block/LevelEvent:as -> PARTICLES_EGG_CRACK
+Unseen: net/minecraft/world/level/block/LevelEvent:at -> PARTICLES_TRIAL_SPAWNER_SPAWN
+Unseen: net/minecraft/world/level/block/LevelEvent:au -> PARTICLES_TRIAL_SPAWNER_SPAWN_MOB_AT
+Unseen: net/minecraft/world/level/block/LevelEvent:av -> PARTICLES_TRIAL_SPAWNER_DETECT_PLAYER
+Unseen: net/minecraft/world/level/block/LevelEvent:aa -> PARTICLES_MOBBLOCK_SPAWN
+Unseen: net/minecraft/world/level/block/LevelEvent:ab -> PARTICLES_DRAGON_FIREBALL_SPLASH
+Unseen: net/minecraft/world/level/block/LevelEvent:ag -> PARTICLES_BEE_GROWTH
+Unseen: net/minecraft/world/level/block/LevelEvent:ah -> PARTICLES_TURTLE_EGG_PLACEMENT
+Unseen: net/minecraft/world/level/block/LevelEvent:ai -> PARTICLES_SMASH_ATTACK
+Unseen: net/minecraft/world/level/block/LevelEvent:aj -> ANIMATION_END_GATEWAY_SPAWN
+Unseen: net/minecraft/world/level/block/LevelEvent:ac -> PARTICLES_INSTANT_POTION_SPLASH
+Unseen: net/minecraft/world/level/block/LevelEvent:ad -> PARTICLES_DRAGON_BLOCK_BREAK
+Unseen: net/minecraft/world/level/block/LevelEvent:ae -> PARTICLES_WATER_EVAPORATING
+Unseen: net/minecraft/world/level/block/LevelEvent:af -> PARTICLES_SHOOT_WHITE_SMOKE
+Unseen: net/minecraft/world/level/block/LevelEvent:aA -> ANIMATION_SPAWN_COBWEB
+Unseen: net/minecraft/world/level/block/LevelEvent:aB -> PARTICLES_TRIAL_SPAWNER_DETECT_PLAYER_OMINOUS
+Unseen: net/minecraft/world/level/block/LevelEvent:aC -> PARTICLES_TRIAL_SPAWNER_BECOME_OMINOUS
+Unseen: net/minecraft/world/level/block/LevelEvent:aD -> PARTICLES_TRIAL_SPAWNER_SPAWN_ITEM
+Unseen: net/minecraft/server/level/BlockDestructionProgress:d -> updatedRenderTick
+Unseen: net/minecraft/data/models/model/ModelTemplates:by -> MUSIC_DISC
+Unseen: net/minecraft/data/models/model/ModelTemplates:bx -> FLAT_ITEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:bs -> CAULDRON_FULL
+Unseen: net/minecraft/data/models/model/ModelTemplates:br -> CAULDRON_LEVEL2
+Unseen: net/minecraft/data/models/model/ModelTemplates:bz -> FLAT_HANDHELD_ITEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:ah -> TRAPDOOR_TOP
+Unseen: net/minecraft/data/models/model/ModelTemplates:bI -> TWO_CANDLES
+Unseen: net/minecraft/data/models/model/ModelTemplates:ag -> STAIRS_OUTER
+Unseen: net/minecraft/data/models/model/ModelTemplates:af -> STAIRS_INNER
+Unseen: net/minecraft/data/models/model/ModelTemplates:bG -> SKULL_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:ae -> STAIRS_STRAIGHT
+Unseen: net/minecraft/data/models/model/ModelTemplates:bF -> BANNER_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:bE -> BED_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:ac -> SLAB_TOP
+Unseen: net/minecraft/data/models/model/ModelTemplates:bD -> SHULKER_BOX_INVENTORY
+Unseen: net/minecraft/data/models/model/ModelTemplates:ab -> SLAB_BOTTOM
+Unseen: net/minecraft/data/models/model/ModelTemplates:bC -> THREE_LAYERED_ITEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:aa -> PARTICLE_ONLY
+Unseen: net/minecraft/data/models/model/ModelTemplates:bB -> TWO_LAYERED_ITEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:ap -> TINTED_CROSS
+Unseen: net/minecraft/data/models/model/ModelTemplates:bO -> FLAT_HANDHELD_MACE_ITEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:am -> ORIENTABLE_TRAPDOOR_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:al -> ORIENTABLE_TRAPDOOR_BOTTOM
+Unseen: net/minecraft/data/models/model/ModelTemplates:ak -> ORIENTABLE_TRAPDOOR_TOP
+Unseen: net/minecraft/data/models/model/ModelTemplates:aj -> TRAPDOOR_OPEN
+Unseen: net/minecraft/data/models/model/ModelTemplates:bK -> FOUR_CANDLES
+Unseen: net/minecraft/data/models/model/ModelTemplates:ai -> TRAPDOOR_BOTTOM
+Unseen: net/minecraft/data/models/model/ModelTemplates:bJ -> THREE_CANDLES
+Unseen: net/minecraft/data/models/model/ModelTemplates:aX -> FIRE_FLOOR
+Unseen: net/minecraft/data/models/model/ModelTemplates:aU -> ATTACHED_STEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:aT -> STEMS
+Unseen: net/minecraft/data/models/model/ModelTemplates:aR -> CHISELED_BOOKSHELF_SLOT_BOTTOM_RIGHT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aQ -> CHISELED_BOOKSHELF_SLOT_BOTTOM_MID
+Unseen: net/minecraft/data/models/model/ModelTemplates:bA -> FLAT_HANDHELD_ROD_ITEM
+Unseen: net/minecraft/data/models/model/ModelTemplates:aZ -> FIRE_SIDE_ALT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aY -> FIRE_SIDE
+Unseen: net/minecraft/data/models/model/ModelTemplates:be -> HANGING_LANTERN
+Unseen: net/minecraft/data/models/model/ModelTemplates:bb -> FIRE_UP_ALT
+Unseen: net/minecraft/data/models/model/ModelTemplates:bq -> CAULDRON_LEVEL1
+Unseen: net/minecraft/data/models/model/ModelTemplates:bp -> SINGLE_FACE
+Unseen: net/minecraft/data/models/model/ModelTemplates:bo -> FOUR_TURTLE_EGGS
+Unseen: net/minecraft/data/models/model/ModelTemplates:bn -> THREE_TURTLE_EGGS
+Unseen: net/minecraft/data/models/model/ModelTemplates:bm -> TWO_TURTLE_EGGS
+Unseen: net/minecraft/data/models/model/ModelTemplates:bj -> PISTON_HEAD_SHORT
+Unseen: net/minecraft/data/models/model/ModelTemplates:ax -> FLOWERBED_1
+Unseen: net/minecraft/data/models/model/ModelTemplates:aw -> CARPET
+Unseen: net/minecraft/data/models/model/ModelTemplates:av -> RAIL_RAISED_SW
+Unseen: net/minecraft/data/models/model/ModelTemplates:au -> RAIL_RAISED_NE
+Unseen: net/minecraft/data/models/model/ModelTemplates:at -> RAIL_CURVED
+Unseen: net/minecraft/data/models/model/ModelTemplates:as -> RAIL_FLAT
+Unseen: net/minecraft/data/models/model/ModelTemplates:ar -> TINTED_FLOWER_POT_CROSS
+Unseen: net/minecraft/data/models/model/ModelTemplates:aq -> FLOWER_POT_CROSS
+Unseen: net/minecraft/data/models/model/ModelTemplates:ba -> FIRE_UP
+Unseen: net/minecraft/data/models/model/ModelTemplates:az -> FLOWERBED_3
+Unseen: net/minecraft/data/models/model/ModelTemplates:ay -> FLOWERBED_2
+Unseen: net/minecraft/data/models/model/ModelTemplates:aH -> STAINED_GLASS_PANE_NOSIDE_ALT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aG -> STAINED_GLASS_PANE_NOSIDE
+Unseen: net/minecraft/data/models/model/ModelTemplates:aD -> GLAZED_TERRACOTTA
+Unseen: net/minecraft/data/models/model/ModelTemplates:aC -> CORAL_WALL_FAN
+Unseen: net/minecraft/data/models/model/ModelTemplates:aB -> CORAL_FAN
+Unseen: net/minecraft/data/models/model/ModelTemplates:aA -> FLOWERBED_4
+Unseen: net/minecraft/data/models/model/ModelTemplates:aP -> CHISELED_BOOKSHELF_SLOT_BOTTOM_LEFT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aO -> CHISELED_BOOKSHELF_SLOT_TOP_RIGHT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aN -> CHISELED_BOOKSHELF_SLOT_TOP_MID
+Unseen: net/minecraft/data/models/model/ModelTemplates:aM -> CHISELED_BOOKSHELF_SLOT_TOP_LEFT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aK -> STAINED_GLASS_PANE_SIDE_ALT
+Unseen: net/minecraft/data/models/model/ModelTemplates:aJ -> STAINED_GLASS_PANE_SIDE
+Unseen: net/minecraft/data/models/model/ModelTemplates:aI -> STAINED_GLASS_PANE_POST
+Unseen: net/minecraft/data/tags/IntrinsicHolderTagsProvider$a:a -> keyExtractor
+Unseen: net/minecraft/data/models/ItemModelGenerators:a -> TRIM_TYPE_PREDICATE_ID
+Unseen: net/minecraft/data/models/ItemModelGenerators:b -> GENERATED_TRIM_MODELS
+Unseen: net/minecraft/data/loot/packs/VanillaBlockLoot:g -> JUNGLE_LEAVES_SAPLING_CHANGES
+Unseen: net/minecraft/data/loot/packs/VanillaBlockLoot:h -> EXPLOSION_RESISTANT
+Unseen: net/minecraft/server/packs/DownloadQueue:d -> eventLog
+Unseen: net/minecraft/server/packs/DownloadQueue:c -> cacheDir
+Unseen: net/minecraft/server/packs/DownloadQueue:b -> MAX_KEPT_PACKS
+

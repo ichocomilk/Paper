@@ -1,0 +1,2 @@
+Command: /usr/local/sdkman/candidates/java/21.0.4-ms/bin/java -classpath /workspaces/Paper/work/BuildData/bin/SpecialSource-2.jar net.md_5.ss.SpecialSource map --auto-lvt BASIC -i /workspaces/Paper/.gradle/caches/paperweight/taskCache/filterVanillaJar.jar -m /workspaces/Paper/.gradle/caches/paperweight/taskCache/addAdditionalSpigotMappings.class.csrg -o /workspaces/Paper/.gradle/caches/paperweight/taskCache/spigotRemapJar.jar.classes
+
